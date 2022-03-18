@@ -156,6 +156,8 @@ synapse.Position = UDim2.new(0.126691267, 0, 0.236499071, 0)
 synapse.Size = UDim2.new(0, 607, 0, 26)
 synapse.Visible = false
 synapse.ZIndex = 4
+synapse.Active = true
+synapse.Draggable = true
 
 icon.Name = "icon"
 icon.Parent = synapse
