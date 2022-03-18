@@ -154,7 +154,7 @@ synapse.BorderColor3 = Color3.new(1, 1, 1)
 synapse.BorderSizePixel = 0
 synapse.Position = UDim2.new(0.126691267, 0, 0.236499071, 0)
 synapse.Size = UDim2.new(0, 607, 0, 26)
-synapse.Visible = false
+synapse.Visible = true
 synapse.ZIndex = 4
 synapse.Active = true
 synapse.Draggable = true
@@ -1613,6 +1613,7 @@ open.Position = UDim2.new(0, 0, 0.621973932, 0)
 open.Size = UDim2.new(0, 32, 0, 32)
 open.ZIndex = 2
 open.Image = "http://www.roblox.com/asset/?id=2530517466"
+open.Visible = false
 
 test.Name = "test"
 test.Parent = sy
