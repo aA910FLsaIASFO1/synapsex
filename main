@@ -1621,3 +1621,5 @@ test.BackgroundColor3 = Color3.new(1, 1, 1)
 test.Size = UDim2.new(0, 100, 0, 100)
 test.Visible = false
 test.Image = "http://www.roblox.com/asset/?id=3233422717"
+local VERSION = 0.0.9
+print(VERSION")
