@@ -1,165 +1,80 @@
-local sy = Instance.new("ScreenGui")
+local SynapseGENCore = Instance.new("ScreenGui")
 local synapse = Instance.new("Frame")
 local icon = Instance.new("ImageLabel")
-local Frame = Instance.new("Frame")
+local top = Instance.new("Frame")
 local scroll = Instance.new("Frame")
-local f = Instance.new("ScrollingFrame")
+local editor = Instance.new("ScrollingFrame")
 local detail = Instance.new("Frame")
 local textbox1 = Instance.new("TextBox")
 local lines = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
-local ScrollingFrame = Instance.new("ScrollingFrame")
+local editordecor = Instance.new("Frame")
+local scriptstab = Instance.new("ScrollingFrame")
+local gamehelper = Instance.new("TextButton")
+local script6 = Instance.new("TextButton")
+local owlhub = Instance.new("TextButton")
+local nkhub = Instance.new("TextButton")
+local cmdx = Instance.new("TextButton")
+local infiniteyied = Instance.new("TextButton")
 local exec = Instance.new("ImageButton")
-local TextLabel = Instance.new("TextLabel")
-local help = Instance.new("TextLabel")
+local exec_aA83j8FH = Instance.new("TextLabel")
 local clear = Instance.new("ImageButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local help_2 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 local attath = Instance.new("ImageButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local help_3 = Instance.new("TextLabel")
+local attath_O00ASnVn19da = Instance.new("TextLabel")
 local shub = Instance.new("ImageButton")
-local TextLabel_4 = Instance.new("TextLabel")
-local help_4 = Instance.new("TextLabel")
+local shub_aAi193KF9k = Instance.new("TextLabel")
 local ofile = Instance.new("ImageButton")
-local TextLabel_5 = Instance.new("TextLabel")
-local help_5 = Instance.new("TextLabel")
+local ofile_aA8jNF84KP = Instance.new("TextLabel")
 local efile = Instance.new("ImageButton")
-local TextLabel_6 = Instance.new("TextLabel")
-local help_6 = Instance.new("TextLabel")
+local efile_aA47JCm = Instance.new("TextLabel")
 local options = Instance.new("ImageButton")
-local TextLabel_7 = Instance.new("TextLabel")
-local help_7 = Instance.new("TextLabel")
+local options_aA38aSB8j = Instance.new("TextLabel")
 local close = Instance.new("ImageButton")
-local TextLabel_8 = Instance.new("TextLabel")
-local top = Instance.new("ImageButton")
-local TextLabel_9 = Instance.new("TextLabel")
+local close_aA84jHFi = Instance.new("TextLabel")
+local top_2 = Instance.new("ImageButton")
+local top_aA91kFJ39 = Instance.new("TextLabel")
 local min = Instance.new("ImageButton")
-local TextLabel_10 = Instance.new("TextLabel")
+local min_aA6JSifop = Instance.new("TextLabel")
 local tab1 = Instance.new("TextButton")
 local close_2 = Instance.new("TextButton")
 local add = Instance.new("TextButton")
-local title = Instance.new("TextLabel")
+local title2 = Instance.new("TextLabel")
 local back = Instance.new("ImageLabel")
-local SH = Instance.new("Frame")
-local Hub = Instance.new("ImageLabel")
-local ScrollingFrame_2 = Instance.new("ScrollingFrame")
-local Dex = Instance.new("TextButton")
-local SD = Instance.new("TextButton")
-local Remote = Instance.new("TextButton")
-local UE = Instance.new("TextButton")
-local close2 = Instance.new("TextButton")
-local title_2 = Instance.new("TextLabel")
-local description = Instance.new("TextLabel")
-local close1 = Instance.new("TextButton")
-local DexV2 = Instance.new("Frame")
-local Dex_2 = Instance.new("ImageLabel")
-local Dex_exe = Instance.new("TextButton")
-local RS = Instance.new("Frame")
-local Dex_exe_2 = Instance.new("TextButton")
-local Dex_3 = Instance.new("ImageLabel")
-local UE_2 = Instance.new("Frame")
-local Dex_exe_3 = Instance.new("TextButton")
-local Dex_4 = Instance.new("ImageLabel")
-local SD_2 = Instance.new("Frame")
-local Dex_exe_4 = Instance.new("TextButton")
-local Dex_5 = Instance.new("ImageLabel")
-local CS = Instance.new("TextLabel")
-local icon_2 = Instance.new("ImageLabel")
-local top_2 = Instance.new("Frame")
-local Options = Instance.new("Frame")
-local background = Instance.new("Frame")
-local title_3 = Instance.new("TextLabel")
-local FPSB = Instance.new("TextLabel")
-local AutoAT = Instance.new("TextLabel")
-local AutoEXC = Instance.new("TextLabel")
-local topmost = Instance.new("TextLabel")
-local IUIT = Instance.new("TextLabel")
-local debugtext = Instance.new("TextLabel")
-local minium = Instance.new("TextButton")
-local fpsb = Instance.new("TextButton")
-local AuEXSCrirp = Instance.new("TextButton")
-local aA = Instance.new("TextButton")
-local FileClsPr = Instance.new("TextButton")
-local IUI = Instance.new("TextButton")
-local TMost = Instance.new("TextButton")
-local icon_3 = Instance.new("ImageLabel")
-local startcustom = Instance.new("TextButton")
-local custom = Instance.new("Frame")
-local custom_2 = Instance.new("Frame")
-local tab = Instance.new("Frame")
-local buttons = Instance.new("TextButton")
-local themes = Instance.new("TextButton")
-local prethemes2 = Instance.new("TextButton")
-local help_8 = Instance.new("TextButton")
-local prethemes = Instance.new("Frame")
-local set = Instance.new("TextButton")
-local titlebox = Instance.new("TextBox")
-local preview = Instance.new("ImageLabel")
-local paradise = Instance.new("TextButton")
-local abstract1 = Instance.new("TextButton")
-local montain = Instance.new("TextButton")
-local galaxy = Instance.new("TextButton")
-local legacy = Instance.new("TextButton")
-local settheme = Instance.new("TextButton")
-local themebox = Instance.new("TextBox")
-local iconbox = Instance.new("TextBox")
-local seticon = Instance.new("TextButton")
-local launch = Instance.new("TextButton")
-local setbuttonconfig = Instance.new("ScrollingFrame")
-local attathtext = Instance.new("TextBox")
-local TextLabel_11 = Instance.new("TextLabel")
-local tabtitl = Instance.new("TextLabel")
-local setattath = Instance.new("TextButton")
-local optionstext = Instance.new("TextBox")
-local TextLabel_12 = Instance.new("TextLabel")
-local setoptions = Instance.new("TextButton")
-local setexec = Instance.new("TextButton")
-local exectext = Instance.new("TextBox")
-local TextLabel_13 = Instance.new("TextLabel")
-local setefile = Instance.new("TextButton")
-local setclear = Instance.new("TextButton")
-local efiletext = Instance.new("TextBox")
-local TextLabel_14 = Instance.new("TextLabel")
-local cleartext = Instance.new("TextBox")
-local TextLabel_15 = Instance.new("TextLabel")
-local ofiletext = Instance.new("TextBox")
-local TextLabel_16 = Instance.new("TextLabel")
-local setofile = Instance.new("TextButton")
-local setshub = Instance.new("TextButton")
-local shubtext = Instance.new("TextBox")
-local TextLabel_17 = Instance.new("TextLabel")
-local icon_4 = Instance.new("ImageLabel")
-local title_4 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-local load = Instance.new("Frame")
-local load_2 = Instance.new("ImageLabel")
-local Message = Instance.new("TextLabel")
-local title_5 = Instance.new("TextLabel")
-local backprogress = Instance.new("Frame")
-local progress = Instance.new("Frame")
-local icon_5 = Instance.new("ImageLabel")
 local open = Instance.new("ImageButton")
-local test = Instance.new("ImageLabel")
- 
-sy.Name = "sy"
-sy.Parent = game.CoreGui
-sy.DisplayOrder = 1
 
-synapse.Name = "synapse"
-synapse.Parent = sy
+open.Name = "0SADCNCAPSDC-ASJCDSAPOASLD(((()sa))OOKSADOPAskaCQNPSA´~ÃKSDACMSPDNCASHCJ"
+open.Parent = SynapseGENCore
+open.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+open.Position = UDim2.new(0, 0, 0.621973932, 0)
+open.Size = UDim2.new(0, 32, 0, 32)
+open.ZIndex = 2
+open.Image = "http://www.roblox.com/asset/?id=2530517466"
+local xy = Instance.new("UICorner")
+xy.Parent = open
+xy.CornerRadius = UDim.new(3, 0)
+xy.Name = "0ASDCimscNKCu(_$N-sdca)DCA-HG9JNCACHDJC`gcauYPFUBC´HCJANC0´GA($uJCSDPAHICDF-9UNDP0)()()"
+
+
+SynapseGENCore.Parent = game.CoreGui
+SynapseGENCore.Name = "a9SIAdaj9C)AD_9cjma-9jcad_(J)HC(HAshbn-grbcbSA_CHjdiaNSDOCASUOCDc99-j0sabdCOSBC"
+SynapseGENCore.Enabled = true
+
+local Main = Instance.new("ScreenGui")
+Main.Parent = SynapseGENCore
+Main.Name = "0ISNAcD-SPACPNSPADCSACPNASNPAJ40NS049U109NWC0AS40UNSCA04G88BSN8AUS4AB"
+synapse.Name = "0SNC(ncs)Acnqn2ni21ninWC_(S)C)0-aincnica-S$C(CASN)NSCan0N(c-sajcne0_C$N0A_0NCA)()"
+synapse.Parent = Main
 synapse.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
 synapse.BackgroundTransparency = 1
 synapse.BorderColor3 = Color3.new(1, 1, 1)
 synapse.BorderSizePixel = 0
 synapse.Position = UDim2.new(0.126691267, 0, 0.236499071, 0)
 synapse.Size = UDim2.new(0, 607, 0, 26)
-synapse.Visible = true
 synapse.ZIndex = 4
 synapse.Active = true
 synapse.Draggable = true
 
-icon.Name = "icon"
+icon.Name = "00sfka$(MASc)ECIMsdAIDsAICN"
 icon.Parent = synapse
 icon.BackgroundColor3 = Color3.new(1, 1, 1)
 icon.BackgroundTransparency = 1
@@ -169,37 +84,39 @@ icon.Size = UDim2.new(0, 24, 0, 23)
 icon.ZIndex = 2
 icon.Image = "http://www.roblox.com/asset/?id=2530517466"
 
-Frame.Parent = synapse
-Frame.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-Frame.BorderColor3 = Color3.new(1, 1, 1)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(-0.000162090073, 0, 0.00602516765, 0)
-Frame.Size = UDim2.new(0, 647, 0, 27)
+	
+top.Name = "aI(ACJE0)ANCas-ca9sejCN"
+top.Parent = synapse
+top.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+top.BorderColor3 = Color3.new(1, 1, 1)
+top.BorderSizePixel = 0
+top.Position = UDim2.new(-0.000162090073, 0, 0.00602516765, 0)
+top.Size = UDim2.new(0, 647, 0, 27)
 
-scroll.Name = "scroll"
+scroll.Name = "SCJA)4cn-NASC)?(ACN0ascn-)"
 scroll.Parent = synapse
 scroll.BackgroundColor3 = Color3.new(1, 1, 1)
 scroll.BackgroundTransparency = 1
 scroll.Size = UDim2.new(0, 100, 0, 100)
 
-f.Name = "f"
-f.Parent = scroll
-f.Active = true
-f.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-f.BorderSizePixel = 0
-f.Position = UDim2.new(0.0599999987, 0, 0.480618298, 0)
-f.Size = UDim2.new(0, 533, 0, 197)
+editor.Name = "AANce0ascN-dcnqwsACMqn90w0ne"
+editor.Parent = scroll
+editor.Active = true
+editor.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+editor.BorderSizePixel = 0
+editor.Position = UDim2.new(0.0599999987, 0, 0.480618298, 0)
+editor.Size = UDim2.new(0, 533, 0, 197)
 
-detail.Name = "detail"
-detail.Parent = f
+detail.Name = "ASJanec0asnC9qwnSCA9j821nS(C04cnSADIM()0Icns)"
+detail.Parent = editor
 detail.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 detail.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 detail.BorderSizePixel = 0
 detail.Position = UDim2.new(-0.00101543951, 0, -0.00346273812, 0)
 detail.Size = UDim2.new(0, 32, 0, 293)
 
-textbox1.Name = "textbox1"
-textbox1.Parent = f
+textbox1.Name = "a0jsc0cn0aS)CJa)S_JCnjAC)hVASBC)(Chdn())"
+textbox1.Parent = editor
 textbox1.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
 textbox1.BorderSizePixel = 0
 textbox1.Position = UDim2.new(0.072270155, 0, -1.17732789e-05, 0)
@@ -213,7 +130,7 @@ textbox1.TextSize = 14
 textbox1.TextXAlignment = Enum.TextXAlignment.Left
 textbox1.TextYAlignment = Enum.TextYAlignment.Top
 
-lines.Name = "lines"
+lines.Name = "A(A9as9cj0AJCJsnac_JECMs-acmCEi-J"
 lines.Parent = textbox1
 lines.BackgroundColor3 = Color3.new(1, 1, 1)
 lines.BackgroundTransparency = 1
@@ -226,20 +143,107 @@ lines.TextSize = 14
 lines.TextWrapped = true
 lines.TextYAlignment = Enum.TextYAlignment.Top
 
-Frame_2.Parent = f
-Frame_2.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
-Frame_2.BackgroundTransparency = 0.699999988079071
-Frame_2.Size = UDim2.new(0, 533, 0, 14)
+editordecor.Name = "A(Cn0ascnNACONruonSCAPCNDjAS_NC"
+editordecor.Parent = editor
+editordecor.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+editordecor.BackgroundTransparency = 0.699999988079071
+editordecor.Size = UDim2.new(0, 533, 0, 14)
 
-ScrollingFrame.Parent = scroll
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-ScrollingFrame.BorderColor3 = Color3.new(1, 1, 1)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(5.42000008, 0, 0.300000012, 0)
-ScrollingFrame.Size = UDim2.new(0, 101, 0, 215)
+scriptstab.Name = "saCDINpcn-aACS)DNA$cnoinpSAOCDNDCoasncsDArins94"
+scriptstab.Parent = scroll
+scriptstab.Active = true
+scriptstab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+scriptstab.BorderColor3 = Color3.new(1, 1, 1)
+scriptstab.BorderSizePixel = 0
+scriptstab.Position = UDim2.new(5.42000008, 0, 0.300000012, 0)
+scriptstab.Size = UDim2.new(0, 101, 0, 215)
+scriptstab.CanvasSize = UDim2.new(0, 0, 2, 5)
+scriptstab.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 
-exec.Name = "exec"
+gamehelper.Name = "a(ASCJ4cnsa-ncSPDIc-nAE_CnnncpiSANC)"
+gamehelper.Parent = scriptstab
+gamehelper.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+gamehelper.BorderSizePixel = 0
+gamehelper.BorderColor3 = Color3.new(0, 0.901961, 1)
+gamehelper.Size = UDim2.new(0, 110, 0, 14)
+gamehelper.Font = Enum.Font.SourceSans
+gamehelper.Text = "Game_Helper.lua"
+gamehelper.TextColor3 = Color3.new(1, 1, 1)
+gamehelper.TextSize = 15
+gamehelper.TextXAlignment = Enum.TextXAlignment.Left
+gamehelper.BackgroundTransparency = 1
+
+script6.Name = "a((Sc40napsncpC04na-scd0- CAW_$BC))"
+script6.Parent = scriptstab
+script6.Active = false
+script6.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+script6.BorderSizePixel = 0
+script6.Position = UDim2.new(0, 0, 0.349999994, 0)
+script6.Size = UDim2.new(0, 110, 0, 14)
+script6.Visible = false
+script6.Font = Enum.Font.SourceSans
+script6.Text = ""
+script6.TextColor3 = Color3.new(1, 1, 1)
+script6.TextSize = 15
+script6.TextXAlignment = Enum.TextXAlignment.Left
+
+owlhub.Name = "asASC49nsaC~sac_n4snisA$Acnc"
+owlhub.Parent = scriptstab
+owlhub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+owlhub.BorderSizePixel = 0
+owlhub.BorderColor3 = Color3.new(0, 0.901961, 1)
+owlhub.Position = UDim2.new(0, 0, 0.280000001, 0)
+owlhub.Size = UDim2.new(0, 110, 0, 14)
+owlhub.Font = Enum.Font.SourceSans
+owlhub.Text = "OWL_Hub.lua"
+owlhub.TextColor3 = Color3.new(1, 1, 1)
+owlhub.TextSize = 15
+owlhub.TextXAlignment = Enum.TextXAlignment.Left
+owlhub.BackgroundTransparency = 1
+
+nkhub.Name = "sa=e-cjma0scnDNEC_NSCAOB8ba)$*&(CBnsah49CBb0"
+nkhub.Parent = scriptstab
+nkhub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+nkhub.BorderSizePixel = 0
+nkhub.BorderColor3 = Color3.new(0, 0.901961, 1)
+nkhub.Position = UDim2.new(0, 0, 0.209999993, 0)
+nkhub.Size = UDim2.new(0, 110, 0, 14)
+nkhub.Font = Enum.Font.SourceSans
+nkhub.Text = "NKHub.lua"
+nkhub.TextColor3 = Color3.new(1, 1, 1)
+nkhub.TextSize = 15
+nkhub.TextXAlignment = Enum.TextXAlignment.Left
+nkhub.BackgroundTransparency = 1
+
+cmdx.Name = "aincasDNI0ipncNC-acsndDB_(CDNU)CBd9-HndCU)CB_"
+cmdx.Parent = scriptstab
+cmdx.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+cmdx.BorderSizePixel = 0
+cmdx.BorderColor3 = Color3.new(0, 0.901961, 1)
+cmdx.Position = UDim2.new(0, 0, 0.140000001, 0)
+cmdx.Size = UDim2.new(0, 110, 0, 14)
+cmdx.Font = Enum.Font.SourceSans
+cmdx.Text = "CMD-X.lua"
+cmdx.TextColor3 = Color3.new(1, 1, 1)
+cmdx.TextSize = 15
+cmdx.TextXAlignment = Enum.TextXAlignment.Left
+cmdx.BackgroundTransparency = 1
+
+infiniteyied.Name = "aA_(JSCND)N_Cncasu u0c-ad=CA_SENC)A_CN"
+infiniteyied.Parent = scriptstab
+infiniteyied.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+infiniteyied.BorderSizePixel = 0
+infiniteyied.BorderColor3 = Color3.new(0, 0.901961, 1)
+infiniteyied.Position = UDim2.new(0, 0, 0.0700000003, 0)
+infiniteyied.Size = UDim2.new(0, 110, 0, 14)
+infiniteyied.Font = Enum.Font.SourceSans
+infiniteyied.Text = "Infinite Yield.txt"
+infiniteyied.TextColor3 = Color3.new(1, 1, 1)
+infiniteyied.TextSize = 15
+infiniteyied.TextXAlignment = Enum.TextXAlignment.Left
+infiniteyied.BackgroundTransparency = 1
+
+exec.Name = "aAS(_CJ9-DN_DNCA_SeCASB_CdahDN-CBDaCND0BCA(N"
 exec.Parent = synapse
 exec.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 exec.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -247,30 +251,19 @@ exec.BorderSizePixel = 0
 exec.Position = UDim2.new(0.00988467876, 0, 9.61767197, 0)
 exec.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel.Parent = exec
-TextLabel.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
-TextLabel.BackgroundTransparency = 1
-TextLabel.Size = UDim2.new(0, 82, 0, 27)
-TextLabel.Font = Enum.Font.Arial
-TextLabel.Text = "Execute"
-TextLabel.TextColor3 = Color3.new(1, 1, 1)
-TextLabel.TextSize = 13
-TextLabel.TextWrapped = true
+exec_aA83j8FH.Name = "asiCESNA)DcAS_CNE(_CHAWC_SCN_ACNA)_CHS(C_H"
+exec_aA83j8FH.Parent = exec
+exec_aA83j8FH.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
+exec_aA83j8FH.BackgroundTransparency = 1
+exec_aA83j8FH.BorderColor3 = Color3.new(1, 1, 1)
+exec_aA83j8FH.Size = UDim2.new(0, 82, 0, 27)
+exec_aA83j8FH.Font = Enum.Font.Arial
+exec_aA83j8FH.Text = "Execute"
+exec_aA83j8FH.TextColor3 = Color3.new(1, 1, 1)
+exec_aA83j8FH.TextSize = 13
+exec_aA83j8FH.TextWrapped = true
 
-help.Name = "help"
-help.Parent = exec
-help.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help.Size = UDim2.new(0, 109, 0, 61)
-help.Visible = false
-help.ZIndex = 10
-help.Font = Enum.Font.Ubuntu
-help.Text = "Execute a Script in Editor"
-help.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help.TextSize = 14
-help.TextWrapped = true
-
-clear.Name = "clear"
+clear.Name = "009sJACa0hdC_J_DDcu0b-d8rc-h9aj-nc"
 clear.Parent = synapse
 clear.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 clear.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -278,30 +271,19 @@ clear.BorderSizePixel = 0
 clear.Position = UDim2.new(0.152999997, 0, 9.61800003, 0)
 clear.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_2.Parent = clear
-TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_2.BackgroundTransparency = 1
-TextLabel_2.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_2.Font = Enum.Font.Arial
-TextLabel_2.Text = "Clear"
-TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_2.TextSize = 13
-TextLabel_2.TextWrapped = true
+TextLabel.Parent = clear
+TextLabel.Name = "sa0nc-DC(Snc0-ca-naDJSCU)b-9hCDN)UCB_(DHjcA"
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Size = UDim2.new(0, 82, 0, 27)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.Text = "Clear"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 13
+TextLabel.TextWrapped = true
+TextLabel.BorderColor3 = Color3.new(1, 1, 1)
 
-help_2.Name = "help"
-help_2.Parent = clear
-help_2.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_2.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_2.Size = UDim2.new(0, 109, 0, 61)
-help_2.Visible = false
-help_2.ZIndex = 10
-help_2.Font = Enum.Font.Ubuntu
-help_2.Text = "Clear all codes in Editor"
-help_2.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_2.TextSize = 14
-help_2.TextWrapped = true
-
-attath.Name = "attath"
+attath.Name = "as9cidnsc0dnCD0nC)CJ_CDCDb)SCbv0h-jN"
 attath.Parent = synapse
 attath.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 attath.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -309,30 +291,19 @@ attath.BorderSizePixel = 0
 attath.Position = UDim2.new(0.78088963, 0, 9.61767197, 0)
 attath.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_3.Parent = attath
-TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_3.BackgroundTransparency = 1
-TextLabel_3.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_3.Font = Enum.Font.Arial
-TextLabel_3.Text = "Attach"
-TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_3.TextSize = 13
-TextLabel_3.TextWrapped = true
+attath_O00ASnVn19da.Name = "9QNCSDJANAS9S4MAS9INS0-ASNMCANC-w))a)s(_ASJCN)JASCMAJI4JANSCB"
+attath_O00ASnVn19da.Parent = attath
+attath_O00ASnVn19da.BackgroundColor3 = Color3.new(1, 1, 1)
+attath_O00ASnVn19da.BackgroundTransparency = 1
+attath_O00ASnVn19da.Size = UDim2.new(0, 82, 0, 27)
+attath_O00ASnVn19da.Font = Enum.Font.Arial
+attath_O00ASnVn19da.Text = "Attach"
+attath_O00ASnVn19da.TextColor3 = Color3.new(1, 1, 1)
+attath_O00ASnVn19da.TextSize = 13
+attath_O00ASnVn19da.TextWrapped = true
+attath_O00ASnVn19da.BorderColor3 = Color3.new(1, 1, 1)
 
-help_3.Name = "help"
-help_3.Parent = attath
-help_3.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_3.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_3.Size = UDim2.new(0, 109, 0, 61)
-help_3.Visible = false
-help_3.ZIndex = 10
-help_3.Font = Enum.Font.Ubuntu
-help_3.Text = "Attach on Roblox"
-help_3.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_3.TextSize = 14
-help_3.TextWrapped = true
-
-shub.Name = "shub"
+shub.Name = "as9jc0d0C_NDIADJd´D_NMX_CDMacbpNCDPiASNCDPIsnaPCNID"
 shub.Parent = synapse
 shub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 shub.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -340,30 +311,19 @@ shub.BorderSizePixel = 0
 shub.Position = UDim2.new(0.924004912, 0, 9.61800003, 0)
 shub.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_4.Parent = shub
-TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_4.BackgroundTransparency = 1
-TextLabel_4.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_4.Font = Enum.Font.Arial
-TextLabel_4.Text = "Script Hub"
-TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_4.TextSize = 13
-TextLabel_4.TextWrapped = true
+shub_aAi193KF9k.Name = "xDASNDXASNIPDCpasnCDaspIBvndhvj-VJM_A(Ns0cbsvna0cbc)"
+shub_aAi193KF9k.Parent = shub
+shub_aAi193KF9k.BackgroundColor3 = Color3.new(1, 1, 1)
+shub_aAi193KF9k.BackgroundTransparency = 1
+shub_aAi193KF9k.Size = UDim2.new(0, 82, 0, 27)
+shub_aAi193KF9k.Font = Enum.Font.Arial
+shub_aAi193KF9k.Text = "Script Hub"
+shub_aAi193KF9k.TextColor3 = Color3.new(1, 1, 1)
+shub_aAi193KF9k.TextSize = 13
+shub_aAi193KF9k.TextWrapped = true
+shub_aAi193KF9k.BorderColor3 = Color3.new(1, 1, 1)
 
-help_4.Name = "help"
-help_4.Parent = shub
-help_4.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_4.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_4.Size = UDim2.new(0, 109, 0, 61)
-help_4.Visible = false
-help_4.ZIndex = 10
-help_4.Font = Enum.Font.Ubuntu
-help_4.Text = "Start Syanpse X Script Hub"
-help_4.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_4.TextSize = 14
-help_4.TextWrapped = true
-
-ofile.Name = "ofile"
+ofile.Name = "os-aC(_CNDhcdb0_NNc-NCDa9nc cn_(CANC_(DCA_S(VNN)))"
 ofile.Parent = synapse
 ofile.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 ofile.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -371,30 +331,19 @@ ofile.BorderSizePixel = 0
 ofile.Position = UDim2.new(0.296000004, 0, 9.61800003, 0)
 ofile.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_5.Parent = ofile
-TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_5.BackgroundTransparency = 1
-TextLabel_5.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_5.Font = Enum.Font.Arial
-TextLabel_5.Text = "Open File"
-TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_5.TextSize = 13
-TextLabel_5.TextWrapped = true
+ofile_aA8jNF84KP.Name = "s9ac90DC_(HA)SCfh-9vf-a-CSJFC_anc_+CN_C(HNCF_("
+ofile_aA8jNF84KP.Parent = ofile
+ofile_aA8jNF84KP.BorderColor3 = Color3.new(1, 1, 1)
+ofile_aA8jNF84KP.BackgroundColor3 = Color3.new(1, 1, 1)
+ofile_aA8jNF84KP.BackgroundTransparency = 1
+ofile_aA8jNF84KP.Size = UDim2.new(0, 82, 0, 27)
+ofile_aA8jNF84KP.Font = Enum.Font.Arial
+ofile_aA8jNF84KP.Text = "Open File"
+ofile_aA8jNF84KP.TextColor3 = Color3.new(1, 1, 1)
+ofile_aA8jNF84KP.TextSize = 13
+ofile_aA8jNF84KP.TextWrapped = true
 
-help_5.Name = "help"
-help_5.Parent = ofile
-help_5.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_5.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_5.Size = UDim2.new(0, 109, 0, 61)
-help_5.Visible = false
-help_5.ZIndex = 10
-help_5.Font = Enum.Font.Ubuntu
-help_5.Text = "Open Script from file (Not work on Roblox..)"
-help_5.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_5.TextSize = 14
-help_5.TextWrapped = true
-
-efile.Name = "efile"
+efile.Name = "9sja)-jc-da)_AN)_9hsjnvd0a0-vjarv-jndbacvhj=sv-f-n"
 efile.Parent = synapse
 efile.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 efile.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -402,30 +351,19 @@ efile.BorderSizePixel = 0
 efile.Position = UDim2.new(0.43900001, 0, 9.61800003, 0)
 efile.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_6.Parent = efile
-TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_6.BackgroundTransparency = 1
-TextLabel_6.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_6.Font = Enum.Font.Arial
-TextLabel_6.Text = "Execute File"
-TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_6.TextSize = 13
-TextLabel_6.TextWrapped = true
+efile_aA47JCm.Name = "wiudascDJ_CJS0dJCA_HCJDN)V-(HVAB)_HSJV"
+efile_aA47JCm.Parent = efile
+efile_aA47JCm.BackgroundColor3 = Color3.new(1, 1, 1)
+efile_aA47JCm.BackgroundTransparency = 1
+efile_aA47JCm.Size = UDim2.new(0, 82, 0, 27)
+efile_aA47JCm.Font = Enum.Font.Arial
+efile_aA47JCm.BorderColor3 = Color3.new(1, 1, 1)
+efile_aA47JCm.Text = "Execute File"
+efile_aA47JCm.TextColor3 = Color3.new(1, 1, 1)
+efile_aA47JCm.TextSize = 13
+efile_aA47JCm.TextWrapped = true
 
-help_6.Name = "help"
-help_6.Parent = efile
-help_6.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_6.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_6.Size = UDim2.new(0, 109, 0, 61)
-help_6.Visible = false
-help_6.ZIndex = 10
-help_6.Font = Enum.Font.Ubuntu
-help_6.Text = "Execute a Script from file (Not Work on Roblox..)"
-help_6.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_6.TextSize = 14
-help_6.TextWrapped = true
-
-options.Name = "options"
+options.Name = "jsa0cidC_JC)N-ca0f-cnfipva)BINCAX)ANCFASBCnvCFnaCOBNF"
 options.Parent = synapse
 options.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 options.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -433,30 +371,19 @@ options.BorderSizePixel = 0
 options.Position = UDim2.new(0.579999983, 0, 9.61800003, 0)
 options.Size = UDim2.new(0, 82, 0, 27)
 
-TextLabel_7.Parent = options
-TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_7.BackgroundTransparency = 1
-TextLabel_7.Size = UDim2.new(0, 82, 0, 27)
-TextLabel_7.Font = Enum.Font.Arial
-TextLabel_7.Text = "Options"
-TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_7.TextSize = 13
-TextLabel_7.TextWrapped = true
+options_aA38aSB8j.Name = "as(cnad-nC_D_`NAVBS_VND_BV(AHNABS_nb-vnci-"
+options_aA38aSB8j.Parent = options
+options_aA38aSB8j.BackgroundColor3 = Color3.new(1, 1, 1)
+options_aA38aSB8j.BackgroundTransparency = 1
+options_aA38aSB8j.BorderColor3 = Color3.new(1, 1, 1)
+options_aA38aSB8j.Size = UDim2.new(0, 82, 0, 27)
+options_aA38aSB8j.Font = Enum.Font.Arial
+options_aA38aSB8j.Text = "Options"
+options_aA38aSB8j.TextColor3 = Color3.new(1, 1, 1)
+options_aA38aSB8j.TextSize = 13
+options_aA38aSB8j.TextWrapped = true
 
-help_7.Name = "help"
-help_7.Parent = options
-help_7.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
-help_7.Position = UDim2.new(-0.165136963, 0, -2.44444442, 0)
-help_7.Size = UDim2.new(0, 109, 0, 61)
-help_7.Visible = false
-help_7.ZIndex = 10
-help_7.Font = Enum.Font.Ubuntu
-help_7.Text = "Open Synapse X Options"
-help_7.TextColor3 = Color3.new(0.862745, 0.862745, 0.784314)
-help_7.TextSize = 14
-help_7.TextWrapped = true
-
-close.Name = "close"
+close.Name = "as9-vn0vrnf-aNC_N-9rvj0ancNFN((FN_(CSANF_CNA)FNf0nc))"
 close.Parent = synapse
 close.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 close.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -464,37 +391,40 @@ close.BorderSizePixel = 0
 close.Position = UDim2.new(1.03299999, 0, 0.100000001, 0)
 close.Size = UDim2.new(0, 15, 0, 15)
 
-TextLabel_8.Parent = close
-TextLabel_8.Active = true
-TextLabel_8.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
-TextLabel_8.BackgroundTransparency = 1
-TextLabel_8.Size = UDim2.new(0, 15, 0, 15)
-TextLabel_8.Font = Enum.Font.Arial
-TextLabel_8.Text = "x"
-TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_8.TextSize = 13
-TextLabel_8.TextWrapped = true
+close_aA84jHFi.Name = "(_SJA_RJCIA_NCS_(cDS_9haNCN_Anv-d=jbb-dvnc0-n"
+close_aA84jHFi.Parent = close
+close_aA84jHFi.Active = true
+close_aA84jHFi.BorderColor3 = Color3.new(1, 1, 1)
+close_aA84jHFi.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
+close_aA84jHFi.BackgroundTransparency = 1
+close_aA84jHFi.Size = UDim2.new(0, 15, 0, 15)
+close_aA84jHFi.Font = Enum.Font.Arial
+close_aA84jHFi.Text = "x"
+close_aA84jHFi.TextColor3 = Color3.new(1, 1, 1)
+close_aA84jHFi.TextSize = 13
+close_aA84jHFi.TextWrapped = true
 
-top.Name = "top"
-top.Parent = synapse
-top.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-top.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
-top.BorderSizePixel = 0
-top.Position = UDim2.new(0.999000013, 0, 0.100000001, 0)
-top.Size = UDim2.new(0, 15, 0, 15)
+top_2.Name = "sa9-ja)C_DH_Ddnavh=gnsb)A_NC_ASJR_(RJABTAVB"
+top_2.Parent = synapse
+top_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+top_2.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
+top_2.BorderSizePixel = 0
+top_2.Position = UDim2.new(0.999000013, 0, 0.100000001, 0)
+top_2.Size = UDim2.new(0, 15, 0, 15)
 
-TextLabel_9.Parent = top
-TextLabel_9.Active = true
-TextLabel_9.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
-TextLabel_9.BackgroundTransparency = 1
-TextLabel_9.Size = UDim2.new(0, 15, 0, 15)
-TextLabel_9.Font = Enum.Font.Arial
-TextLabel_9.Text = "M"
-TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_9.TextSize = 13
-TextLabel_9.TextWrapped = true
+top_aA91kFJ39.Name = "sac09jc0jaCF()JCF)JFC09arjv0jmarc0jsa(JCF)(AJ(J"
+top_aA91kFJ39.Parent = top_2
+top_aA91kFJ39.Active = true
+top_aA91kFJ39.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
+top_aA91kFJ39.BackgroundTransparency = 1
+top_aA91kFJ39.Size = UDim2.new(0, 15, 0, 15)
+top_aA91kFJ39.Font = Enum.Font.Arial
+top_aA91kFJ39.Text = "M"
+top_aA91kFJ39.TextColor3 = Color3.new(1, 1, 1)
+top_aA91kFJ39.TextSize = 13
+top_aA91kFJ39.TextWrapped = true
 
-min.Name = "min"
+min.Name = "caS_JCDacd-as9DNa-vnMC+AMCS-dca-sncdw-Qd_JCCDQ"
 min.Parent = synapse
 min.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
 min.BorderColor3 = Color3.new(0.384314, 0.584314, 0.709804)
@@ -502,18 +432,19 @@ min.BorderSizePixel = 0
 min.Position = UDim2.new(0.959999979, 0, 0.100000001, 0)
 min.Size = UDim2.new(0, 15, 0, 15)
 
-TextLabel_10.Parent = min
-TextLabel_10.Active = true
-TextLabel_10.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
-TextLabel_10.BackgroundTransparency = 1
-TextLabel_10.Size = UDim2.new(0, 15, 0, 15)
-TextLabel_10.Font = Enum.Font.Arial
-TextLabel_10.Text = "_"
-TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_10.TextSize = 15
-TextLabel_10.TextWrapped = true
+min_aA6JSifop.Name = "si9ac9jd-JCD_SAJA_VndNC_JsJA_CR_JC_JACF_A(SJFCA"
+min_aA6JSifop.Parent = min
+min_aA6JSifop.Active = true
+min_aA6JSifop.BackgroundColor3 = Color3.new(0, 0.211765, 0.313726)
+min_aA6JSifop.BackgroundTransparency = 1
+min_aA6JSifop.Size = UDim2.new(0, 15, 0, 15)
+min_aA6JSifop.Font = Enum.Font.Arial
+min_aA6JSifop.Text = "_"
+min_aA6JSifop.TextColor3 = Color3.new(1, 1, 1)
+min_aA6JSifop.TextSize = 15
+min_aA6JSifop.TextWrapped = true
 
-tab1.Name = "tab1"
+tab1.Name = "9-jsaDCJCD)SCJjc0ajsf0c9ja)JCF)(JFC)JSCM)CFJASFCNACFANCFJ"
 tab1.Parent = synapse
 tab1.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 tab1.BackgroundTransparency = 0.10000000149011612
@@ -526,7 +457,7 @@ tab1.TextColor3 = Color3.new(1, 1, 1)
 tab1.TextSize = 14
 tab1.TextXAlignment = Enum.TextXAlignment.Left
 
-close_2.Name = "close"
+close_2.Name = "k0-ASCKDCJ(_ADCS9jdc0(J_DCA(JCaND_(NCn_ASNv-nvs-JH"
 close_2.Parent = tab1
 close_2.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 close_2.BackgroundTransparency = 0.10000000149011612
@@ -539,7 +470,7 @@ close_2.TextColor3 = Color3.new(1, 1, 1)
 close_2.TextSize = 15
 close_2.TextXAlignment = Enum.TextXAlignment.Left
 
-add.Name = "add"
+add.Name = "s_AJ(D)jcC)DJ)VJ0jNOIXBSAOCBIcnabincanCHDIVNCPiasnciasbpdcna"
 add.Parent = tab1
 add.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 add.BackgroundTransparency = 0.10000000149011612
@@ -552,18 +483,18 @@ add.TextColor3 = Color3.new(1, 1, 1)
 add.TextSize = 20
 add.TextXAlignment = Enum.TextXAlignment.Left
 
-title.Name = "title"
-title.Parent = synapse
-title.BackgroundColor3 = Color3.new(1, 1, 1)
-title.BackgroundTransparency = 1
-title.BorderSizePixel = 0
-title.Size = UDim2.new(0, 646, 0, 27)
-title.Font = Enum.Font.SourceSans
-title.Text = "Synapse X v0.0.5"
-title.TextColor3 = Color3.new(1, 1, 1)
-title.TextSize = 14
+title2.Name = "tSA-ASD-ACSD-C9UCND-ACUCDBN-CNOBDCANSD0SCA0UCDHHDC"
+title2.Parent = synapse
+title2.BackgroundColor3 = Color3.new(1, 1, 1)
+title2.BackgroundTransparency = 1
+title2.BorderSizePixel = 0
+title2.Size = UDim2.new(0, 646, 0, 27)
+title2.Font = Enum.Font.SourceSans
+title2.Text = "Synapse X v0.0.5"
+title2.TextColor3 = Color3.new(1, 1, 1)
+title2.TextSize = 14
 
-back.Name = "back"
+back.Name = "ISCAD90DCJ08C0D_()a+JCD-H0n)*cC0-DC)uchaDC0A-DASUDA8SR0H0SAJC8A9SCF0A"
 back.Parent = synapse
 back.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
 back.BorderSizePixel = 0
@@ -571,1055 +502,735 @@ back.Position = UDim2.new(1.09601842e-05, 0, 0, 0)
 back.Size = UDim2.new(0, 647, 0, 284)
 back.ZIndex = 0
 
-SH.Name = "SH"
-SH.Parent = sy
-SH.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-SH.BorderSizePixel = 0
-SH.Position = UDim2.new(0.327967823, 0, 0.30864197, 0)
-SH.Size = UDim2.new(0, 411, 0, 31)
-SH.Visible = false
 
-Hub.Name = "Hub"
-Hub.Parent = SH
-Hub.Active = true
-Hub.BackgroundColor3 = Color3.new(0.211765, 0.211765, 0.211765)
-Hub.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
-Hub.BorderSizePixel = 0
-Hub.Size = UDim2.new(0, 411, 0, 275)
 
-ScrollingFrame_2.Parent = Hub
-ScrollingFrame_2.Active = true
-ScrollingFrame_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-ScrollingFrame_2.BorderSizePixel = 0
-ScrollingFrame_2.Position = UDim2.new(0.0206675287, 0, 0.137799129, 0)
-ScrollingFrame_2.Size = UDim2.new(0, 109, 0, 226)
-ScrollingFrame_2.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 0, 0)
-ScrollingFrame_2.ScrollBarThickness = 14
-ScrollingFrame_2.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 
-Dex.Name = "Dex"
-Dex.Parent = ScrollingFrame_2
-Dex.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-Dex.BackgroundTransparency = 0.4000000059604645
-Dex.BorderColor3 = Color3.new(0, 0.901961, 1)
-Dex.BorderSizePixel = 0
-Dex.Position = UDim2.new(0, 1, 0, 1)
-Dex.Size = UDim2.new(0, 107, 0, 18)
-Dex.Font = Enum.Font.Arial
-Dex.Text = "Dex Explorer"
-Dex.TextColor3 = Color3.new(1, 1, 1)
-Dex.TextSize = 11
-Dex.TextXAlignment = Enum.TextXAlignment.Left
 
-SD.Name = "SD"
-SD.Parent = ScrollingFrame_2
-SD.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-SD.BorderColor3 = Color3.new(0, 0.901961, 1)
-SD.BorderSizePixel = 0
-SD.Position = UDim2.new(0.00899999961, 0, 0.34637168, 0)
-SD.Size = UDim2.new(0, 107, 0, 18)
-SD.Font = Enum.Font.Arial
-SD.Text = "Script Dumper"
-SD.TextColor3 = Color3.new(1, 1, 1)
-SD.TextSize = 11
-SD.TextXAlignment = Enum.TextXAlignment.Left
 
-Remote.Name = "Remote"
-Remote.Parent = ScrollingFrame_2
-Remote.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-Remote.BackgroundTransparency = 1
-Remote.BorderColor3 = Color3.new(0, 0.901961, 1)
-Remote.BorderSizePixel = 0
-Remote.Position = UDim2.new(0.00899999961, 0, 0.239823014, 0)
-Remote.Size = UDim2.new(0, 107, 0, 18)
-Remote.Font = Enum.Font.Arial
-Remote.Text = "Remote Spy"
-Remote.TextColor3 = Color3.new(1, 1, 1)
-Remote.TextSize = 11
-Remote.TextXAlignment = Enum.TextXAlignment.Left
-
-UE.Name = "UE"
-UE.Parent = ScrollingFrame_2
-UE.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-UE.BackgroundTransparency = 1
-UE.BorderColor3 = Color3.new(0, 0.901961, 1)
-UE.BorderSizePixel = 0
-UE.Position = UDim2.new(0.00917431153, 0, 0.119469032, 0)
-UE.Size = UDim2.new(0, 107, 0, 18)
-UE.Font = Enum.Font.Arial
-UE.Text = "Unnamed ESP"
-UE.TextColor3 = Color3.new(1, 1, 1)
-UE.TextSize = 11
-UE.TextXAlignment = Enum.TextXAlignment.Left
-
-close2.Name = "close2"
-close2.Parent = SH
-close2.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-close2.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-close2.BorderSizePixel = 0
-close2.Position = UDim2.new(0.667760372, 0, 7.79043674, 0)
-close2.Size = UDim2.new(0, 121, 0, 23)
-close2.Font = Enum.Font.Arial
-close2.Text = "Close"
-close2.TextColor3 = Color3.new(1, 1, 1)
-close2.TextSize = 14
-
-title_2.Name = "title"
-title_2.Parent = SH
-title_2.BackgroundColor3 = Color3.new(1, 1, 1)
-title_2.BackgroundTransparency = 1
-title_2.BorderSizePixel = 4
-title_2.Size = UDim2.new(0, 410, 0, 30)
-title_2.ZIndex = 3
-title_2.Font = Enum.Font.Arial
-title_2.Text = " Script Hub"
-title_2.TextColor3 = Color3.new(1, 1, 1)
-title_2.TextSize = 13
-title_2.TextWrapped = true
-
-description.Name = "description"
-description.Parent = SH
-description.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-description.BorderSizePixel = 0
-description.Position = UDim2.new(0.313868612, 0, 5.61290312, 0)
+--Start ScriptHub
+local SH = Instance.new("Frame")
+local Hub = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Dex = Instance.new("TextButton")
+local SD = Instance.new("TextButton")
+local Remote = Instance.new("TextButton")
+local UE = Instance.new("TextButton")
+local close2 = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+local description = Instance.new("TextLabel")
+local close1 = Instance.new("TextButton")
+local DexV2 = Instance.new("Frame")
+local Dex_2 = Instance.new("ImageLabel")
+local remotespy = Instance.new("Frame")
+local Dex_3 = Instance.new("ImageLabel")
+local unnamedesp = Instance.new("Frame")
+local Dex_4 = Instance.new("ImageLabel")
+local scriptdumper = Instance.new("Frame")
+local Dex_5 = Instance.new("ImageLabel")
+local CS = Instance.new("TextLabel")
+local icon = Instance.new("ImageLabel")
+local top = Instance.new("Frame")
+local hubexec = Instance.new("TextButton")
+local HubGme = Instance.new("StringValue")
+HubGme.Parent = SH 
+HubGme.Name = "a(AAJF0as4j-a4SINascndadc-a$Ipn)DSAO_S$)"
+local hub = HubGme.Value
+local ScriptHub = Instance.new("ScreenGui")
+ScriptHub.Parent = SynapseGENCore
+ScriptHub.Name = "092u3h08bx0SBA-h4bcsa0bEC()8bsnaCX-h9jsSA0PC_JB0SAJCD"
+local CorePos = SH.Position == UDim2.new(0, 300, 0, 300)
+SH.Name = "aA91kjF9VKn39DKm9FL3mCUNlaSM_synapseX_@)Ld9#M(FK30KF)#NCI" 
+SH.Parent = ScriptHub
+SH.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824) 
+SH.BorderSizePixel = 0 
+CorePos = true
+SH.Size = UDim2.new(0, 411, 0, 31) 
+SH.Active = true 
+SH.Draggable = true 
+SH.Visible = false 
+Hub.Name = "0sadlSDIn39FM#(MCSA)#ASCNaSJDSNAIACLSPQ" 
+Hub.Parent = SH 
+Hub.Active = true 
+Hub.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Hub.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765) 
+Hub.BorderSizePixel = 0 Hub.Size = UDim2.new(0, 411, 0, 275)
+ScrollingFrame.Parent = Hub 
+ScrollingFrame.Active = true
+ScrollingFrame.Name = "-0JNQBEWDS9ACCOSCphxonasd9)9SA9ANC9ASUDND1-2IQDCASPJCAHCANSBCI"
+ScrollingFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+ScrollingFrame.BorderSizePixel = 0 
+ScrollingFrame.Position = UDim2.new(0.0206675287, 0, 0.137799129, 0) 
+ScrollingFrame.Size = UDim2.new(0, 109, 0, 226) 
+ScrollingFrame.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png" 
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 0) 
+ScrollingFrame.ScrollBarThickness = 14 
+ScrollingFrame.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png" 
+Dex.Name = "aAO93kHVNCAS)#L)S()#CNASIENSACQ!(@9319KSA)#mCASKiASo" 
+Dex.Parent = ScrollingFrame 
+Dex.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+Dex.BackgroundTransparency = 0.4000000059604645 
+Dex.BorderColor3 = Color3.new(0, 0.901961, 1) 
+Dex.BorderSizePixel = 0 
+Dex.Position = UDim2.new(0, 1, 0, 1) 
+Dex.Size = UDim2.new(0, 107, 0, 18) 
+Dex.Font = Enum.Font.Arial 
+Dex.Text = "Dex Explorer" 
+Dex.TextColor3 = Color3.new(1, 1, 1) 
+Dex.TextSize = 11 
+Dex.TextXAlignment = Enum.TextXAlignment.Left 
+SD.Name = "ASO@(QW)QKWQIASJFN!()MCABHSYQ!*8138MCASI39k" 
+SD.Parent = ScrollingFrame 
+SD.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+SD.BorderColor3 = Color3.new(0, 0.901961, 1) 
+SD.BorderSizePixel = 0 
+SD.Position = UDim2.new(0.00899999961, 0, 0.34637168, 0) 
+SD.Size = UDim2.new(0, 107, 0, 18) 
+SD.Font = Enum.Font.Arial 
+SD.Text = "Script Dumper" 
+SD.TextColor3 = Color3.new(1, 1, 1) 
+SD.TextSize = 11 
+SD.TextXAlignment = Enum.TextXAlignment.Left 
+Remote.Name = "OSOO!(@0)+nsJAEiASCNSQi39aiSC93MCSAI" 
+Remote.Parent = ScrollingFrame 
+Remote.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+Remote.BackgroundTransparency = 1 
+Remote.BorderColor3 = Color3.new(0, 0.901961, 1) 
+Remote.BorderSizePixel = 0 
+Remote.Position = UDim2.new(0.00899999961, 0, 0.239823014, 0) 
+Remote.Size = UDim2.new(0, 107, 0, 18) 
+Remote.Font = Enum.Font.Arial 
+Remote.Text = "Remote Spy" 
+Remote.TextColor3 = Color3.new(1, 1, 1) 
+Remote.TextSize = 11 
+Remote.TextXAlignment = Enum.TextXAlignment.Left 
+UE.Name = "94C*i1jCNA29KASC9$(CSNAq9SKA(4ksb5ar9))" 
+UE.Parent = ScrollingFrame 
+UE.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+UE.BackgroundTransparency = 1 
+UE.BorderColor3 = Color3.new(0, 0.901961, 1) 
+UE.BorderSizePixel = 0 
+UE.Position = UDim2.new(0.00917431153, 0, 0.119469032, 0) 
+UE.Size = UDim2.new(0, 107, 0, 18) 
+UE.Font = Enum.Font.Arial 
+UE.Text = "Unnamed ESP" 
+UE.TextColor3 = Color3.new(1, 1, 1) 
+UE.TextSize = 11 
+UE.TextXAlignment = Enum.TextXAlignment.Left 
+close2.Name = "9#KsA(3o#UD(0KAS)ASomkaSI$rnix(ASDIi1niSDAO)" 
+close2.Parent = SH 
+close2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+close2.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824) 
+close2.BorderSizePixel = 0 
+close2.Position = UDim2.new(0.667760372, 0, 7.79043674, 0) 
+close2.Size = UDim2.new(0, 121, 0, 23) 
+close2.Font = Enum.Font.Arial 
+close2.Text = "Close" 
+close2.TextColor3 = Color3.new(1, 1, 1) 
+close2.TextSize = 14 
+title.Name = "(3i4(9(SCAIJ30ASC)3)ICAISNN)ASnosCAOCOASJC(#ncACS0cNOSD929SMCi)" 
+title.Parent = SH 
+title.BackgroundColor3 = Color3.new(1, 1, 1) 
+title.BackgroundTransparency = 1 
+title.BorderSizePixel = 4 
+title.Size = UDim2.new(0, 410, 0, 30) 
+title.ZIndex = 3 
+title.Font = Enum.Font.SourceSans 
+title.Text = "Synapse X - Script Hub" 
+title.TextColor3 = Color3.new(1, 1, 1) 
+title.TextSize = 14 
+title.TextWrapped = true 
+description.Name = "a9AKDI4nASCNI_synapseX_skAIsnr9((SAEoSA)sniaEinAS)SAoasd" 
+description.Parent = SH 
+description.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+description.BorderSizePixel = 0 
+description.Position = UDim2.new(0.313868612, 0, 5.61290312, 0) 
 description.Size = UDim2.new(0, 272, 0, 60)
-description.Font = Enum.Font.Arial
-description.Text = ""
-description.TextColor3 = Color3.new(1, 1, 1)
-description.TextSize = 14
-description.TextWrapped = true
-description.TextXAlignment = Enum.TextXAlignment.Left
-description.TextYAlignment = Enum.TextYAlignment.Top
-
-close1.Name = "close1"
-close1.Parent = SH
-close1.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-close1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-close1.BorderSizePixel = 0
-close1.Position = UDim2.new(0.931873441, 0, 0.161290407, 0)
-close1.Size = UDim2.new(0, 21, 0, 21)
-close1.ZIndex = 3
-close1.Font = Enum.Font.Arial
-close1.Text = "_"
-close1.TextColor3 = Color3.new(1, 1, 1)
-close1.TextSize = 14
-
-DexV2.Name = "DexV2"
-DexV2.Parent = SH
-DexV2.BackgroundColor3 = Color3.new(1, 1, 1)
-DexV2.BackgroundTransparency = 1
-DexV2.Size = UDim2.new(0, 100, 0, 100)
-DexV2.Visible = false
-
-Dex_2.Name = "Dex"
-Dex_2.Parent = DexV2
-Dex_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Dex_2.BackgroundTransparency = 1
-Dex_2.BorderSizePixel = 0
-Dex_2.Position = UDim2.new(1.28386867, 0, 0.382653058, 0)
-Dex_2.Size = UDim2.new(0, 272, 0, 126)
-Dex_2.Image = "http://www.roblox.com/asset/?id=7070160765"
-
-Dex_exe.Name = "Dex_exe"
-Dex_exe.Parent = DexV2
-Dex_exe.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe.BorderSizePixel = 0
-Dex_exe.Position = UDim2.new(1.28999996, 0, 2.41000009, 0)
-Dex_exe.Size = UDim2.new(0, 121, 0, 23)
-Dex_exe.Font = Enum.Font.Arial
-Dex_exe.Text = "Execute"
-Dex_exe.TextColor3 = Color3.new(1, 1, 1)
-Dex_exe.TextSize = 14
-
-RS.Name = "RS"
-RS.Parent = SH
-RS.BackgroundColor3 = Color3.new(1, 1, 1)
-RS.BackgroundTransparency = 1
-RS.Size = UDim2.new(0, 100, 0, 100)
-RS.Visible = false
-
-Dex_exe_2.Name = "Dex_exe"
-Dex_exe_2.Parent = RS
-Dex_exe_2.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_2.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_2.BorderSizePixel = 0
-Dex_exe_2.Position = UDim2.new(1.28999996, 0, 2.41000009, 0)
-Dex_exe_2.Size = UDim2.new(0, 121, 0, 23)
-Dex_exe_2.Font = Enum.Font.Arial
-Dex_exe_2.Text = "Execute"
-Dex_exe_2.TextColor3 = Color3.new(1, 1, 1)
-Dex_exe_2.TextSize = 14
-
-Dex_3.Name = "Dex"
-Dex_3.Parent = RS
-Dex_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Dex_3.BackgroundTransparency = 1
-Dex_3.BorderSizePixel = 0
-Dex_3.Position = UDim2.new(1.28386867, 0, 0.382653058, 0)
-Dex_3.Size = UDim2.new(0, 272, 0, 126)
+description.Font = Enum.Font.Arial 
+description.Text = "" 
+description.TextColor3 = Color3.new(1, 1, 1) 
+description.TextSize = 14 
+description.TextWrapped = true 
+description.TextXAlignment = Enum.TextXAlignment.Left 
+description.TextYAlignment = Enum.TextYAlignment.Top 
+close1.Name = "CLASoem010jSA(4ns9ACN93INSAcoÓE)WW)SAn" 
+close1.Parent = SH 
+close1.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+close1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843) 
+close1.BorderSizePixel = 0 
+close1.Position = UDim2.new(0.931873441, 0, 0.161290407, 0) 
+close1.Size = UDim2.new(0, 21, 0, 21) 
+close1.ZIndex = 3 
+close1.Font = Enum.Font.Arial 
+close1.Text = "_" 
+close1.TextColor3 = Color3.new(1, 1, 1) 
+close1.TextSize = 14 
+DexV2.Name = "(SAODAseANISCE9ACJA-9DICA+)dA-CD-AIC_cdJn" 
+DexV2.Parent = SH 
+DexV2.BackgroundColor3 = Color3.new(1, 1, 1) 
+DexV2.BackgroundTransparency = 1 
+DexV2.Size = UDim2.new(0, 100, 0, 100) 
+DexV2.Visible = false 
+Dex_2.Name = "ascidn(W0J0ndas)nd0ACjdc)anS0NCA0SDsanpdA" 
+Dex_2.Parent = DexV2 
+Dex_2.BackgroundColor3 = Color3.new(1, 1, 1) 
+Dex_2.BackgroundTransparency = 1 
+Dex_2.BorderSizePixel = 0 
+Dex_2.Position = UDim2.new(1.28386867, 0, 0.382653058, 0) 
+Dex_2.Size = UDim2.new(0, 272, 0, 126) 
+Dex_2.Image = "http://www.roblox.com/asset/?id=7070160765" 
+remotespy.Name = "DAS0D-ASDi(C9HEcwabdcAs)cJancnjdOCASBPACNCDàud)" 
+remotespy.Parent = SH remotespy.BackgroundColor3 = Color3.new(1, 1, 1) 
+remotespy.BackgroundTransparency = 1 
+remotespy.Size = UDim2.new(0, 100, 0, 100) 
+remotespy.Visible = false 
+Dex_3.Name = "SDA(DCIE0ACJSCJ9DAC-ASMCASIDCAUS=JCDASN-CC" 
+Dex_3.Parent = remotespy 
+Dex_3.BackgroundColor3 = Color3.new(1, 1, 1) 
+Dex_3.BackgroundTransparency = 1 
+Dex_3.BorderSizePixel = 0 
+Dex_3.Position = UDim2.new(1.28386867, 0, 0.382653058, 0) 
+Dex_3.Size = UDim2.new(0, 272, 0, 126) 
 Dex_3.Image = "http://www.roblox.com/asset/?id=7370616106"
-
-UE_2.Name = "UE"
-UE_2.Parent = SH
-UE_2.BackgroundColor3 = Color3.new(1, 1, 1)
-UE_2.BackgroundTransparency = 1
-UE_2.Size = UDim2.new(0, 100, 0, 100)
-UE_2.Visible = false
-
-Dex_exe_3.Name = "Dex_exe"
-Dex_exe_3.Parent = UE_2
-Dex_exe_3.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_3.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_3.BorderSizePixel = 0
-Dex_exe_3.Position = UDim2.new(1.28999996, 0, 2.41000009, 0)
-Dex_exe_3.Size = UDim2.new(0, 121, 0, 23)
-Dex_exe_3.Font = Enum.Font.Arial
-Dex_exe_3.Text = "Execute"
-Dex_exe_3.TextColor3 = Color3.new(1, 1, 1)
-Dex_exe_3.TextSize = 14
-
-Dex_4.Name = "Dex"
-Dex_4.Parent = UE_2
-Dex_4.BackgroundColor3 = Color3.new(1, 1, 1)
-Dex_4.BackgroundTransparency = 1
-Dex_4.BorderSizePixel = 0
-Dex_4.Position = UDim2.new(1.28386867, 0, 0.382653058, 0)
-Dex_4.Size = UDim2.new(0, 272, 0, 126)
+unnamedesp.Name = "DAosce0CWAJ(d_sa(cjCSADC-Aics_CA-DC-AS9CASNAa))"
+unnamedesp.Parent = SH unnamedesp.BackgroundColor3 = Color3.new(1, 1, 1) 
+unnamedesp.BackgroundTransparency = 1 unnamedesp.Size = UDim2.new(0, 100, 0, 100) 
+unnamedesp.Visible = false 
+Dex_4.Name = "ASCE90Da()(wncdD-ASDcmsINCP´)a" 
+Dex_4.Parent = unnamedesp 
+Dex_4.BackgroundColor3 = Color3.new(1, 1, 1) 
+Dex_4.BackgroundTransparency = 1 
+Dex_4.BorderSizePixel = 0 
+Dex_4.Position = UDim2.new(1.28386867, 0, 0.382653058, 0) 
+Dex_4.Size = UDim2.new(0, 272, 0, 126) 
 Dex_4.Image = "http://www.roblox.com/asset/?id=7370616607"
-
-SD_2.Name = "SD"
-SD_2.Parent = SH
-SD_2.BackgroundColor3 = Color3.new(1, 1, 1)
-SD_2.BackgroundTransparency = 1
-SD_2.Size = UDim2.new(0, 100, 0, 100)
-SD_2.Visible = false
-
-Dex_exe_4.Name = "Dex_exe"
-Dex_exe_4.Parent = SD_2
-Dex_exe_4.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_4.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Dex_exe_4.BorderSizePixel = 0
-Dex_exe_4.Position = UDim2.new(1.28999996, 0, 2.41000009, 0)
-Dex_exe_4.Size = UDim2.new(0, 121, 0, 23)
-Dex_exe_4.Font = Enum.Font.Arial
-Dex_exe_4.Text = "Execute"
-Dex_exe_4.TextColor3 = Color3.new(1, 1, 1)
-Dex_exe_4.TextSize = 14
-
-Dex_5.Name = "Dex"
-Dex_5.Parent = SD_2
-Dex_5.BackgroundColor3 = Color3.new(1, 1, 1)
-Dex_5.BackgroundTransparency = 1
-Dex_5.BorderSizePixel = 0
-Dex_5.Position = UDim2.new(1.28386867, 0, 0.382653058, 0)
-Dex_5.Size = UDim2.new(0, 272, 0, 126)
-Dex_5.Image = "http://www.roblox.com/asset/?id=7370669353"
-
-CS.Name = "CS"
-CS.Parent = SH
-CS.BackgroundColor3 = Color3.new(0, 0, 0)
-CS.BorderSizePixel = 0
-CS.Position = UDim2.new(0.255886376, 0, -1.67013705, 0)
-CS.Size = UDim2.new(0, 200, 0, 50)
-CS.Visible = false
-CS.Font = Enum.Font.Arial
-CS.Text = "Coming Soon!"
-CS.TextColor3 = Color3.new(1, 1, 1)
-CS.TextSize = 15
-
-icon_2.Name = "icon"
-icon_2.Parent = SH
-icon_2.BackgroundColor3 = Color3.new(1, 1, 1)
-icon_2.BackgroundTransparency = 1
-icon_2.BorderSizePixel = 0
-icon_2.Position = UDim2.new(0.0214869231, 0, 0.102977663, 0)
-icon_2.Size = UDim2.new(0, 24, 0, 23)
-icon_2.ZIndex = 3
-icon_2.Image = "http://www.roblox.com/asset/?id=2530517466"
-
-top_2.Name = "top"
-top_2.Parent = SH
-top_2.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-top_2.BorderSizePixel = 0
-top_2.Position = UDim2.new(0, 0, -0.00973116979, 0)
-top_2.Size = UDim2.new(0, 411, 0, 31)
-
-Options.Name = "Options"
-Options.Parent = sy
-Options.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-Options.BorderSizePixel = 0
-Options.Position = UDim2.new(0.446064651, 0, 0.311171979, 0)
-Options.Size = UDim2.new(0, 199, 0, 31)
-Options.Visible = false
-
-background.Name = "background"
-background.Parent = Options
-background.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
-background.BorderSizePixel = 0
-background.Position = UDim2.new(0, 0, 0.988335907, 0)
-background.Size = UDim2.new(0, 199, 0, 211)
-
-title_3.Name = "title"
-title_3.Parent = Options
-title_3.BackgroundColor3 = Color3.new(1, 1, 1)
-title_3.BackgroundTransparency = 1
-title_3.Position = UDim2.new(-0.00112807692, 0, 0.0708386824, 0)
-title_3.Size = UDim2.new(0, 199, 0, 26)
-title_3.Font = Enum.Font.Arial
-title_3.Text = "Options"
-title_3.TextColor3 = Color3.new(1, 1, 1)
-title_3.TextSize = 14
-
-FPSB.Name = "FPSB"
-FPSB.Parent = Options
-FPSB.BackgroundColor3 = Color3.new(1, 1, 1)
-FPSB.BackgroundTransparency = 1
-FPSB.Position = UDim2.new(0.355855912, 0, 1.54854858, 0)
-FPSB.Size = UDim2.new(0, 63, 0, 16)
-FPSB.Font = Enum.Font.Arial
-FPSB.Text = "FPS Unlock [BETA]"
-FPSB.TextColor3 = Color3.new(1, 1, 1)
-FPSB.TextSize = 14
-FPSB.TextXAlignment = Enum.TextXAlignment.Left
-
-AutoAT.Name = "AutoAT"
-AutoAT.Parent = Options
-AutoAT.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoAT.BackgroundTransparency = 1
-AutoAT.Position = UDim2.new(0.355855912, 0, 2.93564534, 0)
-AutoAT.Size = UDim2.new(0, 63, 0, 16)
-AutoAT.Font = Enum.Font.Arial
-AutoAT.Text = "Auto-Attach"
-AutoAT.TextColor3 = Color3.new(1, 1, 1)
-AutoAT.TextSize = 14
-AutoAT.TextXAlignment = Enum.TextXAlignment.Left
-
-AutoEXC.Name = "AutoEXC"
-AutoEXC.Parent = Options
-AutoEXC.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoEXC.BackgroundTransparency = 1
-AutoEXC.Position = UDim2.new(0.355855912, 0, 2.25822592, 0)
-AutoEXC.Size = UDim2.new(0, 63, 0, 16)
-AutoEXC.Font = Enum.Font.Arial
-AutoEXC.Text = "Auto Exec scripts"
-AutoEXC.TextColor3 = Color3.new(1, 1, 1)
-AutoEXC.TextSize = 14
-AutoEXC.TextXAlignment = Enum.TextXAlignment.Left
-
-topmost.Name = "topmost"
-topmost.Parent = Options
-topmost.BackgroundColor3 = Color3.new(1, 1, 1)
-topmost.BackgroundTransparency = 1
-topmost.Position = UDim2.new(0.355855912, 0, 5.09693575, 0)
-topmost.Size = UDim2.new(0, 63, 0, 16)
-topmost.Font = Enum.Font.Arial
-topmost.Text = "TopMost"
-topmost.TextColor3 = Color3.new(1, 1, 1)
-topmost.TextSize = 14
-topmost.TextXAlignment = Enum.TextXAlignment.Left
-
-IUIT.Name = "IUIT"
-IUIT.Parent = Options
-IUIT.BackgroundColor3 = Color3.new(1, 1, 1)
-IUIT.BackgroundTransparency = 1
-IUIT.Position = UDim2.new(0.355855912, 0, 4.35500002, 0)
-IUIT.Size = UDim2.new(0, 63, 0, 16)
-IUIT.Font = Enum.Font.Arial
-IUIT.Text = "Internal UI"
-IUIT.TextColor3 = Color3.new(1, 1, 1)
-IUIT.TextSize = 14
-IUIT.TextXAlignment = Enum.TextXAlignment.Left
-
-debugtext.Name = "debugtext"
-debugtext.Parent = Options
-debugtext.BackgroundColor3 = Color3.new(1, 1, 1)
-debugtext.BackgroundTransparency = 1
-debugtext.Position = UDim2.new(0.355855912, 0, 3.6453228, 0)
-debugtext.Size = UDim2.new(0, 63, 0, 16)
-debugtext.Font = Enum.Font.Arial
-debugtext.Text = "Debug"
-debugtext.TextColor3 = Color3.new(1, 1, 1)
-debugtext.TextSize = 14
-debugtext.TextXAlignment = Enum.TextXAlignment.Left
-
-minium.Name = "minium"
-minium.Parent = Options
-minium.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
-minium.BorderSizePixel = 0
-minium.Position = UDim2.new(0.0483847745, 0, 6.7478199, 0)
-minium.Size = UDim2.new(0, 178, 0, 25)
-minium.Font = Enum.Font.Arial
-minium.Text = "Close"
-minium.TextColor3 = Color3.new(1, 1, 1)
-minium.TextSize = 11
-
-fpsb.Name = "fpsb"
-fpsb.Parent = Options
-fpsb.BackgroundColor3 = Color3.new(0.65098, 0.65098, 0.65098)
-fpsb.BorderSizePixel = 0
-fpsb.Position = UDim2.new(0.243082747, 0, 1.58080661, 0)
-fpsb.Size = UDim2.new(0, 14, 0, 14)
-fpsb.Font = Enum.Font.Arial
-fpsb.Text = ""
-fpsb.TextColor3 = Color3.new(0, 0, 0)
-fpsb.TextSize = 13
-fpsb.TextWrapped = true
-
-AuEXSCrirp.Name = "AuEXSCrirp"
-AuEXSCrirp.Parent = Options
-AuEXSCrirp.BackgroundColor3 = Color3.new(0.65098, 0.65098, 0.65098)
-AuEXSCrirp.BorderSizePixel = 0
-AuEXSCrirp.Position = UDim2.new(0.243082747, 0, 2.29048395, 0)
-AuEXSCrirp.Size = UDim2.new(0, 14, 0, 14)
-AuEXSCrirp.Font = Enum.Font.Arial
-AuEXSCrirp.Text = ""
-AuEXSCrirp.TextColor3 = Color3.new(0, 0, 0)
-AuEXSCrirp.TextSize = 13
-AuEXSCrirp.TextWrapped = true
-
-aA.Name = "aA"
-aA.Parent = Options
-aA.BackgroundColor3 = Color3.new(0.65098, 0.65098, 0.65098)
-aA.BorderSizePixel = 0
-aA.Position = UDim2.new(0.243082747, 0, 2.96790338, 0)
-aA.Size = UDim2.new(0, 14, 0, 14)
-aA.Font = Enum.Font.Arial
-aA.Text = ""
-aA.TextColor3 = Color3.new(0, 0, 0)
-aA.TextSize = 13
-aA.TextWrapped = true
-
-FileClsPr.Name = "FileClsPr"
-FileClsPr.Parent = Options
-FileClsPr.BackgroundColor3 = Color3.new(0.65098, 0.65098, 0.65098)
-FileClsPr.BorderSizePixel = 0
-FileClsPr.Position = UDim2.new(0.243082747, 0, 3.67758083, 0)
-FileClsPr.Size = UDim2.new(0, 14, 0, 14)
-FileClsPr.Font = Enum.Font.Arial
-FileClsPr.Text = ""
-FileClsPr.TextColor3 = Color3.new(0, 0, 0)
-FileClsPr.TextSize = 13
-FileClsPr.TextWrapped = true
-
-IUI.Name = "IUI"
-IUI.Parent = Options
-IUI.BackgroundColor3 = Color3.new(0.439216, 0.439216, 0.439216)
-IUI.BorderSizePixel = 0
-IUI.Position = UDim2.new(0.243082747, 0, 4.38725805, 0)
-IUI.Size = UDim2.new(0, 14, 0, 14)
-IUI.Font = Enum.Font.Arial
-IUI.Text = "x"
-IUI.TextColor3 = Color3.new(0, 0, 0)
-IUI.TextSize = 13
-IUI.TextWrapped = true
-
-TMost.Name = "TMost"
-TMost.Parent = Options
-TMost.BackgroundColor3 = Color3.new(0.439216, 0.439216, 0.439216)
-TMost.BorderSizePixel = 0
-TMost.Position = UDim2.new(0.243082747, 0, 5.12919378, 0)
-TMost.Size = UDim2.new(0, 14, 0, 14)
-TMost.Font = Enum.Font.Arial
-TMost.Text = "x"
-TMost.TextColor3 = Color3.new(0, 0, 0)
-TMost.TextSize = 13
-TMost.TextWrapped = true
-
-icon_3.Name = "icon"
-icon_3.Parent = Options
-icon_3.BackgroundColor3 = Color3.new(1, 1, 1)
-icon_3.BackgroundTransparency = 1
-icon_3.BorderSizePixel = 0
-icon_3.Position = UDim2.new(0.0444973521, 0, 0.102977663, 0)
-icon_3.Size = UDim2.new(0, 24, 0, 23)
-icon_3.Image = "http://www.roblox.com/asset/?id=2530517466"
-
-startcustom.Name = "startcustom"
-startcustom.Parent = Options
-startcustom.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-startcustom.BorderSizePixel = 0
-startcustom.Position = UDim2.new(0.0549999997, 0, 5.87099981, 0)
-startcustom.Size = UDim2.new(0, 177, 0, 17)
-startcustom.Font = Enum.Font.Arial
-startcustom.Text = "Open Custom"
-startcustom.TextColor3 = Color3.new(0.980392, 0.980392, 0.980392)
-startcustom.TextSize = 14
-
-custom.Name = "custom"
-custom.Parent = sy
-custom.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-custom.Position = UDim2.new(0.286249995, 0, 0.25698325, 0)
-custom.Size = UDim2.new(0, 399, 0, 30)
-custom.Visible = false
-custom.ZIndex = 2
-
-custom_2.Name = "custom"
-custom_2.Parent = custom
-custom_2.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-custom_2.Position = UDim2.new(0, 0, -0.00540974922, 0)
-custom_2.Size = UDim2.new(0, 399, 0, 231)
-
-tab.Name = "tab"
-tab.Parent = custom
-tab.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-tab.Size = UDim2.new(0, 100, 0, 230)
-
-buttons.Name = "buttons"
-buttons.Parent = tab
-buttons.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-buttons.Position = UDim2.new(0.0762499869, 0, 0.310355455, 0)
-buttons.Size = UDim2.new(0, 84, 0, 20)
-buttons.Font = Enum.Font.SourceSans
-buttons.Text = "Buttons"
-buttons.TextColor3 = Color3.new(1, 1, 1)
-buttons.TextSize = 14
-
-themes.Name = "themes"
-themes.Parent = tab
-themes.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-themes.Position = UDim2.new(0.0762499869, 0, 0.449485868, 0)
-themes.Size = UDim2.new(0, 84, 0, 20)
-themes.Font = Enum.Font.SourceSans
-themes.Text = "Themes"
-themes.TextColor3 = Color3.new(1, 1, 1)
-themes.TextSize = 14
-
-prethemes2.Name = "prethemes2"
-prethemes2.Parent = tab
-prethemes2.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-prethemes2.Position = UDim2.new(0.0762499869, 0, 0.16687718, 0)
-prethemes2.Size = UDim2.new(0, 84, 0, 20)
-prethemes2.Font = Enum.Font.SourceSans
-prethemes2.Text = "Pre - Themes"
-prethemes2.TextColor3 = Color3.new(1, 1, 1)
-prethemes2.TextSize = 14
-
-help_8.Name = "help"
-help_8.Parent = tab
-help_8.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-help_8.Position = UDim2.new(0.0762499869, 0, 0.592964172, 0)
-help_8.Size = UDim2.new(0, 84, 0, 20)
-help_8.Font = Enum.Font.SourceSans
-help_8.Text = "Help"
-help_8.TextColor3 = Color3.new(1, 1, 1)
-help_8.TextSize = 14
-
-prethemes.Name = "prethemes"
-prethemes.Parent = tab
-prethemes.BackgroundColor3 = Color3.new(1, 1, 1)
-prethemes.BackgroundTransparency = 1
-prethemes.Position = UDim2.new(1, 0, 0.130434781, 0)
-prethemes.Size = UDim2.new(0, 46, 0, 41)
-
-set.Name = "set"
-set.Parent = prethemes
-set.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-set.Position = UDim2.new(3.40233707, 0, 0.237184852, 0)
-set.Size = UDim2.new(0, 91, 0, 20)
-set.Font = Enum.Font.SourceSans
-set.Text = "Change Title"
-set.TextColor3 = Color3.new(1, 1, 1)
-set.TextSize = 14
-
-titlebox.Name = "titlebox"
-titlebox.Parent = prethemes
-titlebox.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-titlebox.Position = UDim2.new(0.260869563, 0, 0.195121944, 0)
-titlebox.Size = UDim2.new(0, 145, 0, 24)
-titlebox.Font = Enum.Font.SourceSans
-titlebox.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
-titlebox.Text = ""
-titlebox.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
-titlebox.TextSize = 14
-
-preview.Name = "preview"
-preview.Parent = prethemes
-preview.BackgroundColor3 = Color3.new(1, 1, 1)
-preview.BackgroundTransparency = 1
-preview.Position = UDim2.new(1.74806571, 0, 1.3910569, 0)
-preview.Size = UDim2.new(0, 118, 0, 52)
-preview.Visible = false
-preview.Image = "http://www.roblox.com/asset/?id=8809541532"
-
-paradise.Name = "paradise"
-paradise.Parent = preview
-paradise.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-paradise.Position = UDim2.new(-0.576271176, 0, 1.08568394, 0)
-paradise.Size = UDim2.new(0, 117, 0, 20)
-paradise.Visible = false
-paradise.Font = Enum.Font.SourceSans
-paradise.Text = "Paradise X"
-paradise.TextColor3 = Color3.new(1, 1, 1)
-paradise.TextSize = 14
-
-abstract1.Name = "abstract1"
-abstract1.Parent = preview
-abstract1.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-abstract1.Position = UDim2.new(-0.576271176, 0, 1.66260695, 0)
-abstract1.Size = UDim2.new(0, 117, 0, 20)
-abstract1.Visible = false
-abstract1.Font = Enum.Font.SourceSans
-abstract1.Text = "Abstract 1"
-abstract1.TextColor3 = Color3.new(1, 1, 1)
-abstract1.TextSize = 14
-
-montain.Name = "montain"
-montain.Parent = preview
-montain.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-montain.Position = UDim2.new(0.644067824, 0, 1.07799149, 0)
-montain.Size = UDim2.new(0, 117, 0, 20)
-montain.Visible = false
-montain.Font = Enum.Font.SourceSans
-montain.Text = "Montain"
-montain.TextColor3 = Color3.new(1, 1, 1)
-montain.TextSize = 14
-
-galaxy.Name = "galaxy"
-galaxy.Parent = preview
-galaxy.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-galaxy.Position = UDim2.new(0.644067824, 0, 1.65491462, 0)
-galaxy.Size = UDim2.new(0, 117, 0, 20)
-galaxy.Visible = false
-galaxy.Font = Enum.Font.SourceSans
-galaxy.Text = "Galaxy"
-galaxy.TextColor3 = Color3.new(1, 1, 1)
-galaxy.TextSize = 14
-
-legacy.Name = "legacy"
-legacy.Parent = preview
-legacy.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-legacy.Position = UDim2.new(0.00847458839, 0, 2.21260691, 0)
-legacy.Size = UDim2.new(0, 117, 0, 20)
-legacy.Visible = false
-legacy.Font = Enum.Font.SourceSans
-legacy.Text = "Legacy"
-legacy.TextColor3 = Color3.new(1, 1, 1)
-legacy.TextSize = 14
-
-settheme.Name = "settheme"
-settheme.Parent = prethemes
-settheme.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-settheme.Position = UDim2.new(3.40233707, 0, 0.871331215, 0)
-settheme.Size = UDim2.new(0, 91, 0, 20)
-settheme.Font = Enum.Font.SourceSans
-settheme.Text = "Change Theme"
-settheme.TextColor3 = Color3.new(1, 1, 1)
-settheme.TextSize = 14
-
-themebox.Name = "themebox"
-themebox.Parent = prethemes
-themebox.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-themebox.Position = UDim2.new(0.260869563, 0, 0.804877996, 0)
-themebox.Size = UDim2.new(0, 145, 0, 24)
-themebox.ClearTextOnFocus = false
-themebox.Font = Enum.Font.SourceSans
-themebox.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
-themebox.Text = "http://www.roblox.com/asset/?id="
-themebox.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
-themebox.TextScaled = true
-themebox.TextSize = 14
-themebox.TextWrapped = true
-
-iconbox.Name = "iconbox"
-iconbox.Parent = prethemes
-iconbox.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-iconbox.Position = UDim2.new(0.260869563, 0, 1.48780489, 0)
-iconbox.Size = UDim2.new(0, 145, 0, 24)
-iconbox.Font = Enum.Font.SourceSans
-iconbox.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
-iconbox.Text = ""
-iconbox.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
-iconbox.TextSize = 14
-
-seticon.Name = "seticon"
-seticon.Parent = prethemes
-seticon.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-seticon.Position = UDim2.new(3.40233707, 0, 1.52986777, 0)
-seticon.Size = UDim2.new(0, 91, 0, 20)
-seticon.Font = Enum.Font.SourceSans
-seticon.Text = "Change Icon"
-seticon.TextColor3 = Color3.new(1, 1, 1)
-seticon.TextSize = 14
-
-launch.Name = "launch"
-launch.Parent = tab
-launch.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-launch.Position = UDim2.new(0, 0, 0.845138192, 0)
-launch.Size = UDim2.new(0, 100, 0, 28)
-launch.Font = Enum.Font.SourceSans
-launch.Text = "Launch Synapse X"
-launch.TextColor3 = Color3.new(1, 1, 1)
-launch.TextSize = 14
-launch.TextWrapped = true
-
-setbuttonconfig.Name = "setbuttonconfig"
-setbuttonconfig.Parent = tab
-setbuttonconfig.Active = true
-setbuttonconfig.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
-setbuttonconfig.BorderSizePixel = 0
-setbuttonconfig.Position = UDim2.new(1.12, 0, 0.165217385, 0)
-setbuttonconfig.Size = UDim2.new(0, 287, 0, 184)
-setbuttonconfig.Visible = false
-
-attathtext.Name = "attathtext"
-attathtext.Parent = setbuttonconfig
-attathtext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-attathtext.Position = UDim2.new(0.0487804934, 0, 0.114031225, 0)
-attathtext.Size = UDim2.new(0, 95, 0, 19)
-attathtext.ClearTextOnFocus = false
-attathtext.Font = Enum.Font.Ubuntu
-attathtext.Text = ""
-attathtext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-attathtext.TextScaled = true
-attathtext.TextSize = 13
-attathtext.TextWrapped = true
-
-TextLabel_11.Parent = attathtext
-TextLabel_11.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_11.BackgroundTransparency = 1
-TextLabel_11.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_11.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_11.Font = Enum.Font.Ubuntu
-TextLabel_11.Text = "Attath Button:"
-TextLabel_11.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_11.TextSize = 13
-
-tabtitl.Name = "tabtitl"
-tabtitl.Parent = setbuttonconfig
-tabtitl.BackgroundColor3 = Color3.new(1, 1, 1)
-tabtitl.BackgroundTransparency = 1
-tabtitl.Size = UDim2.new(0, 287, 0, 33)
-tabtitl.Font = Enum.Font.Ubuntu
-tabtitl.Text = "Buttons"
-tabtitl.TextColor3 = Color3.new(1, 1, 1)
-tabtitl.TextSize = 20
-
-setattath.Name = "setattath"
-setattath.Parent = setbuttonconfig
-setattath.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setattath.Position = UDim2.new(0.414634138, 0, 0.11304348, 0)
-setattath.Size = UDim2.new(0, 69, 0, 19)
-setattath.Font = Enum.Font.Ubuntu
-setattath.Text = "Apply"
-setattath.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setattath.TextSize = 15
-
-optionstext.Name = "optionstext"
-optionstext.Parent = setbuttonconfig
-optionstext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-optionstext.Position = UDim2.new(0.0487804934, 0, 0.396639913, 0)
-optionstext.Size = UDim2.new(0, 95, 0, 19)
-optionstext.ClearTextOnFocus = false
-optionstext.Font = Enum.Font.Ubuntu
-optionstext.Text = ""
-optionstext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-optionstext.TextScaled = true
-optionstext.TextSize = 13
-optionstext.TextWrapped = true
-
-TextLabel_12.Parent = optionstext
-TextLabel_12.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_12.BackgroundTransparency = 1
-TextLabel_12.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_12.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_12.Font = Enum.Font.Ubuntu
-TextLabel_12.Text = "Options Button:"
-TextLabel_12.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_12.TextSize = 13
-
-setoptions.Name = "setoptions"
-setoptions.Parent = setbuttonconfig
-setoptions.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setoptions.Position = UDim2.new(0.414634138, 0, 0.395652175, 0)
-setoptions.Size = UDim2.new(0, 69, 0, 19)
-setoptions.Font = Enum.Font.Ubuntu
-setoptions.Text = "Apply"
-setoptions.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setoptions.TextSize = 15
-
-setexec.Name = "setexec"
-setexec.Parent = setbuttonconfig
-setexec.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setexec.Position = UDim2.new(0.414634138, 0, 0.323913038, 0)
-setexec.Size = UDim2.new(0, 69, 0, 19)
-setexec.Font = Enum.Font.Ubuntu
-setexec.Text = "Apply"
-setexec.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setexec.TextSize = 15
-
-exectext.Name = "exectext"
-exectext.Parent = setbuttonconfig
-exectext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-exectext.Position = UDim2.new(0.0487804934, 0, 0.324900806, 0)
-exectext.Size = UDim2.new(0, 95, 0, 19)
-exectext.ClearTextOnFocus = false
-exectext.Font = Enum.Font.Ubuntu
-exectext.Text = ""
-exectext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-exectext.TextScaled = true
-exectext.TextSize = 13
-exectext.TextWrapped = true
-
-TextLabel_13.Parent = exectext
-TextLabel_13.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_13.BackgroundTransparency = 1
-TextLabel_13.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_13.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_13.Font = Enum.Font.Ubuntu
-TextLabel_13.Text = "Exec Button:"
-TextLabel_13.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_13.TextSize = 13
-
-setefile.Name = "setefile"
-setefile.Parent = setbuttonconfig
-setefile.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setefile.Position = UDim2.new(0.414634138, 0, 0.256521732, 0)
-setefile.Size = UDim2.new(0, 69, 0, 19)
-setefile.Font = Enum.Font.Ubuntu
-setefile.Text = "Apply"
-setefile.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setefile.TextSize = 15
-
-setclear.Name = "setclear"
-setclear.Parent = setbuttonconfig
-setclear.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setclear.Position = UDim2.new(0.414634138, 0, 0.184782609, 0)
-setclear.Size = UDim2.new(0, 69, 0, 19)
-setclear.Font = Enum.Font.Ubuntu
-setclear.Text = "Apply"
-setclear.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setclear.TextSize = 15
-
-efiletext.Name = "efiletext"
-efiletext.Parent = setbuttonconfig
-efiletext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-efiletext.Position = UDim2.new(0.0487804934, 0, 0.25750947, 0)
-efiletext.Size = UDim2.new(0, 95, 0, 19)
-efiletext.ClearTextOnFocus = false
-efiletext.Font = Enum.Font.Ubuntu
-efiletext.Text = ""
-efiletext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-efiletext.TextScaled = true
-efiletext.TextSize = 13
-efiletext.TextWrapped = true
-
-TextLabel_14.Parent = efiletext
-TextLabel_14.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_14.BackgroundTransparency = 1
-TextLabel_14.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_14.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_14.Font = Enum.Font.Ubuntu
-TextLabel_14.Text = "Exec File Button:"
-TextLabel_14.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_14.TextSize = 13
-
-cleartext.Name = "cleartext"
-cleartext.Parent = setbuttonconfig
-cleartext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-cleartext.Position = UDim2.new(0.0487804934, 0, 0.185770363, 0)
-cleartext.Size = UDim2.new(0, 95, 0, 19)
-cleartext.ClearTextOnFocus = false
-cleartext.Font = Enum.Font.Ubuntu
-cleartext.Text = ""
-cleartext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-cleartext.TextScaled = true
-cleartext.TextSize = 13
-cleartext.TextWrapped = true
-
-TextLabel_15.Parent = cleartext
-TextLabel_15.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_15.BackgroundTransparency = 1
-TextLabel_15.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_15.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_15.Font = Enum.Font.Ubuntu
-TextLabel_15.Text = "Clear Button:"
-TextLabel_15.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_15.TextSize = 13
-
-ofiletext.Name = "ofiletext"
-ofiletext.Parent = setbuttonconfig
-ofiletext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-ofiletext.Position = UDim2.new(0.0487804934, 0, 0.540118158, 0)
-ofiletext.Size = UDim2.new(0, 95, 0, 19)
-ofiletext.ClearTextOnFocus = false
-ofiletext.Font = Enum.Font.Ubuntu
-ofiletext.Text = ""
-ofiletext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-ofiletext.TextScaled = true
-ofiletext.TextSize = 13
-ofiletext.TextWrapped = true
-
-TextLabel_16.Parent = ofiletext
-TextLabel_16.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_16.BackgroundTransparency = 1
-TextLabel_16.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_16.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_16.Font = Enum.Font.Ubuntu
-TextLabel_16.Text = "Open FIle Button:"
-TextLabel_16.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_16.TextSize = 13
-
-setofile.Name = "setofile"
-setofile.Parent = setbuttonconfig
-setofile.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setofile.Position = UDim2.new(0.414634138, 0, 0.539130449, 0)
-setofile.Size = UDim2.new(0, 69, 0, 19)
-setofile.Font = Enum.Font.Ubuntu
-setofile.Text = "Apply"
-setofile.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setofile.TextSize = 15
-
-setshub.Name = "setshub"
-setshub.Parent = setbuttonconfig
-setshub.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-setshub.Position = UDim2.new(0.414634138, 0, 0.471739113, 0)
-setshub.Size = UDim2.new(0, 69, 0, 19)
-setshub.Font = Enum.Font.Ubuntu
-setshub.Text = "Apply"
-setshub.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-setshub.TextSize = 15
-
-shubtext.Name = "shubtext"
-shubtext.Parent = setbuttonconfig
-shubtext.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-shubtext.Position = UDim2.new(0.0487804934, 0, 0.472726882, 0)
-shubtext.Size = UDim2.new(0, 95, 0, 19)
-shubtext.ClearTextOnFocus = false
-shubtext.Font = Enum.Font.Ubuntu
-shubtext.Text = ""
-shubtext.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-shubtext.TextScaled = true
-shubtext.TextSize = 13
-shubtext.TextWrapped = true
-
-TextLabel_17.Parent = shubtext
-TextLabel_17.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_17.BackgroundTransparency = 1
-TextLabel_17.Position = UDim2.new(0, 0, -0.578947365, 0)
-TextLabel_17.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_17.Font = Enum.Font.Ubuntu
-TextLabel_17.Text = "Script-Hub Button:"
-TextLabel_17.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TextLabel_17.TextSize = 13
-
-icon_4.Name = "icon"
-icon_4.Parent = custom
-icon_4.BackgroundColor3 = Color3.new(1, 1, 1)
-icon_4.BackgroundTransparency = 1
-icon_4.BorderSizePixel = 0
-icon_4.Position = UDim2.new(0.0168402717, 0, 0.104052931, 0)
-icon_4.Size = UDim2.new(0, 24, 0, 23)
-icon_4.ZIndex = 3
-icon_4.Image = "http://www.roblox.com/asset/?id=2530517466"
-
-title_4.Name = "title"
-title_4.Parent = custom
-title_4.BackgroundColor3 = Color3.new(1, 1, 1)
-title_4.BackgroundTransparency = 1
-title_4.BorderSizePixel = 0
-title_4.Size = UDim2.new(0, 400, 0, 30)
-title_4.ZIndex = 3
-title_4.Font = Enum.Font.SourceSans
-title_4.Text = "Custom Adapter "
-title_4.TextColor3 = Color3.new(1, 1, 1)
-title_4.TextSize = 14
-
-TextButton.Parent = custom
-TextButton.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-TextButton.Position = UDim2.new(0.937951088, 0, 0.195903182, 0)
-TextButton.Size = UDim2.new(0, 16, 0, 16)
-TextButton.ZIndex = 3
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "_"
-TextButton.TextColor3 = Color3.new(0, 0, 0)
-TextButton.TextSize = 14
-
-load.Name = "load"
-load.Parent = sy
-load.BackgroundColor3 = Color3.new(0.243137, 0.243137, 0.243137)
-load.BorderSizePixel = 0
-load.Position = UDim2.new(0.368728161, 0, 0.440917104, 0)
-load.Size = UDim2.new(0, 418, 0, 31)
-load.Visible = false
-load.ZIndex = 2
-
-load_2.Name = "load"
-load_2.Parent = load
-load_2.Active = true
-load_2.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
-load_2.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
-load_2.BorderSizePixel = 0
-load_2.Position = UDim2.new(-7.30085574e-08, 0, 0, 0)
-load_2.Size = UDim2.new(0, 418, 0, 114)
-load_2.ImageColor3 = Color3.new(0.588235, 0.588235, 0.588235)
-
-Message.Name = "Message"
-Message.Parent = load_2
-Message.BackgroundColor3 = Color3.new(1, 1, 1)
-Message.BackgroundTransparency = 1
-Message.Position = UDim2.new(0.397748441, 0, 0.394293308, 0)
-Message.Size = UDim2.new(0, 84, 0, 23)
-Message.Font = Enum.Font.Arial
-Message.Text = ""
-Message.TextColor3 = Color3.new(1, 1, 1)
-Message.TextSize = 15
-
-title_5.Name = "title"
-title_5.Parent = load_2
-title_5.BackgroundColor3 = Color3.new(1, 1, 1)
-title_5.BackgroundTransparency = 1
-title_5.BorderSizePixel = 4
-title_5.Position = UDim2.new(0, 0, 0.00877179578, 0)
-title_5.Size = UDim2.new(0, 418, 0, 28)
-title_5.ZIndex = 2
-title_5.Font = Enum.Font.Arial
-title_5.Text = "Synapse X - loader"
-title_5.TextColor3 = Color3.new(1, 1, 1)
-title_5.TextSize = 15
-title_5.TextWrapped = true
-
-backprogress.Name = "backprogress"
-backprogress.Parent = load
-backprogress.Active = true
-backprogress.BackgroundColor3 = Color3.new(1, 1, 1)
-backprogress.BackgroundTransparency = 0.5
-backprogress.BorderSizePixel = 0
-backprogress.Position = UDim2.new(0.0490215234, 0, 2.51612902, 0)
-backprogress.Size = UDim2.new(0, 385, 0, 20)
-
-progress.Name = "progress"
-progress.Parent = load
-progress.BackgroundColor3 = Color3.new(0.054902, 0.576471, 0)
-progress.BorderSizePixel = 0
-progress.Position = UDim2.new(0.0490215234, 0, 2.51612902, 0)
-progress.Size = UDim2.new(0, 0, 0, 20)
-
-icon_5.Name = "icon"
-icon_5.Parent = load
-icon_5.BackgroundColor3 = Color3.new(1, 1, 1)
-icon_5.BackgroundTransparency = 1
-icon_5.BorderSizePixel = 0
-icon_5.Position = UDim2.new(0.0168402717, 0, 0.104052931, 0)
-icon_5.Size = UDim2.new(0, 24, 0, 23)
-icon_5.ZIndex = 3
-icon_5.Image = "http://www.roblox.com/asset/?id=2530517466"
-
-open.Name = "open"
-open.Parent = sy
-open.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
-open.Position = UDim2.new(0, 0, 0.621973932, 0)
-open.Size = UDim2.new(0, 32, 0, 32)
-open.ZIndex = 2
-open.Image = "http://www.roblox.com/asset/?id=2530517466"
-open.Visible = false
-
-test.Name = "test"
-test.Parent = sy
-test.BackgroundColor3 = Color3.new(1, 1, 1)
-test.Size = UDim2.new(0, 100, 0, 100)
-test.Visible = false
-test.Image = "http://www.roblox.com/asset/?id=3233422717"
-local VERSION = 0.0.9
-print(VERSION")
+scriptdumper.Name = "DSO0AE0IEWIaccje-0ICAWda_cid-IC-SAIDAc_)i" 
+scriptdumper.Parent = SH 
+scriptdumper.BackgroundColor3 = Color3.new(1, 1, 1) 
+scriptdumper.BackgroundTransparency = 1 
+scriptdumper.Size = UDim2.new(0, 100, 0, 100) 
+scriptdumper.Visible = false 
+Dex_5.Name = "SDAD09ASJ9DCASJ9Cwe9CAMCSD9-CAS9JDCAW-jaw_j" 
+Dex_5.Parent = scriptdumper 
+Dex_5.BackgroundColor3 = Color3.new(1, 1, 1) 
+Dex_5.BackgroundTransparency = 1 
+Dex_5.BorderSizePixel = 0 
+Dex_5.Position = UDim2.new(1.28386867, 0, 0.382653058, 0) 
+Dex_5.Size = UDim2.new(0, 272, 0, 126) 
+Dex_5.Image = "http://www.roblox.com/asset/?id=7370669353" 
+CS.Name = "SIA(E0Sa))jcCIHSDOAHNP" 
+CS.Parent = SH 
+CS.BackgroundColor3 = Color3.new(0, 0, 0) 
+CS.BorderSizePixel = 0 
+CS.Position = UDim2.new(0.255886376, 0, -1.67013705, 0) 
+CS.Size = UDim2.new(0, 200, 0, 50) 
+CS.Visible = false 
+CS.Font = Enum.Font.Arial 
+CS.Text = "Coming Soon!" 
+CS.TextColor3 = Color3.new(1, 1, 1) 
+CS.TextSize = 15 
+icon.Name = "ICS9A4S9AC=AS0JCDAW0HECJNBSCABDPC0B3NCHNSCSB29BQWNCDQNCQ09HSAPSNC" 
+icon.Parent = SH 
+icon.BackgroundColor3 = Color3.new(1, 1, 1) 
+icon.BackgroundTransparency = 1 
+icon.BorderSizePixel = 0 
+icon.Position = UDim2.new(0.0214869231, 0, 0.102977663, 0) 
+icon.Size = UDim2.new(0, 24, 0, 23) 
+icon.ZIndex = 3 
+icon.Image = "http://www.roblox.com/asset/?id=2530517466" 
+top.Name = "SDAJR949NQ9W9CW((e)ASD0)NACIJsain(())" 
+top.Parent = SH 
+top.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+top.BorderSizePixel = 0 top.Position = UDim2.new(0, 0, -0.00973116979, 0) 
+top.Size = UDim2.new(0, 411, 0, 30) 
+hubexec.Name = "core.O(4($)CSAN)C*JDSA(DAS(DSADASJDCASNODP" 
+hubexec.Parent = SH 
+hubexec.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+hubexec.BorderColor3 = Color3.new(0.258824, 0.258824, 0.258824) 
+hubexec.BorderSizePixel = 0 
+hubexec.Position = UDim2.new(0.313868612, 0, 7.76483917, 0)
+hubexec.Size = UDim2.new(0, 121, 0, 23) 
+hubexec.Visible = false 
+hubexec.Font = Enum.Font.Arial 
+hubexec.Text = "Execute" 
+hubexec.TextColor3 = Color3.new(1, 1, 1) 
+hubexec.TextSize = 14 
+local z = close1 
+z.MouseEnter:Connect(function() 
+	z.BorderSizePixel = 1 
+	z.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725) 
+	z.BackgroundTransparency = 0.6 
+end) 
+z.MouseLeave:Connect(function() 
+	z.BorderSizePixel = 0 
+	z.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+	z.BackgroundTransparency = 0 
+end) 
+local y = close2 
+y.MouseEnter:Connect(function() 
+	y.BorderSizePixel = 1 
+	y.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725) 
+	y.BackgroundTransparency = 0.6
+end) 
+y.MouseLeave:Connect(function() 
+	y.BorderSizePixel = 0 
+	y.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+	y.BackgroundTransparency = 0
+end) 
+local x = hubexec 
+x.MouseEnter:Connect(function()
+	x.BorderSizePixel = 1 
+	x.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725) 
+	x.BackgroundTransparency = 0.6 
+end) 
+x.MouseLeave:Connect(function() 
+	x.BorderSizePixel = 0 
+	x.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294) 
+	x.BackgroundTransparency = 0 
+end)
+
+close1.MouseButton1Click:Connect(function()	
+	SH.Visible = false
+	CorePos = true
+end) 
+close2.MouseButton1Click:Connect(function() 
+	SH.Visible = false
+	CorePos = true
+end) 
+Dex.MouseButton1Click:Connect(function()	
+	DexV2.Visible = true 
+	unnamedesp.Visible = false 
+	remotespy.Visible = false 
+	scriptdumper.Visible = false	
+	description.Text = "A version of the popular Dex explorer with patches specifically for Synapse X."	
+	hubexec.Visible = true	hub = "dex"	
+	hubexec.MouseButton1Click:Connect(function()		
+		if hub == "dex" then
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
+		end	
+	end)
+end)
+UE.MouseButton1Click:Connect(function()	
+	unnamedesp.Visible = true 
+	DexV2.Visible = false 
+	remotespy.Visible = false 
+	scriptdumper.Visible = false 	
+	hubexec.Visible = true	
+	description.Text = "ESP made by ic3w0lf using the Drawing API."	
+	hub = "ESP"	
+	hubexec.MouseButton1Click:Connect(function()
+		if hub == "ESP" then			
+			loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()		
+		end	
+	end)
+end)
+SD.MouseButton1Click:Connect(function()	
+	scriptdumper.Visible = true 
+	unnamedesp.Visible = false 
+	DexV2.Visible = false 
+	remotespy.Visible = false	
+	hub = "SD"	
+	hubexec.Visible = true	
+	description.Text = "Dumps all LocalScripts and ModuleScripts."	
+	hubexec.MouseButton1Click:Connect(function()
+		if hub == "SD" then			
+			loadstring(game:HttpGet("https://pastebin.com/raw/ZkCVGWcF"))()		
+		end
+	end)
+end)
+Remote.MouseButton1Click:connect(function()	
+	remotespy.Visible = true 
+	unnamedesp.Visible = false 
+	DexV2.Visible = false 
+	scriptdumper.Visible = false	
+	hub = "RS"	
+	hubexec.Visible = true	
+	description.Text = "Allows you to view RemoteEvents and RemoteFunctions called."
+	hubexec.MouseButton1Click:Connect(function()
+		if hub == "RS" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/7JKhfPp6"))()
+		end
+	end)
+end)
+
+local HubBackgroundImage = Hub.Image local HubTitle = title.Text local HubIcon = icon.Image
+
+local HubConfig = {
+
+	HubBackgroundImage = {""},
+
+	HubTitle = {""},
+
+	HubIcon = {""},
+
+}
+
+if HubBackgroundImage == "" then
+	HubBackgroundImage = HubBackgroundImage
+end
+
+if HubIcon == "" then
+	HubIcon = "http://www.roblox.com/asset/?id=2530517466"
+end
+
+if HubTitle == "" then
+	HubTitle = "Synapse X "
+end
+
+
+
+SD.MouseEnter:Connect(function() 
+	SD.BorderSizePixel = 1 
+	SD.BackgroundColor3 = Color3.new(0, 0.478431, 0.6) 
+	SD.BackgroundTransparency = 0.4 
+end) 
+SD.MouseEnter:Connect(function() 
+	SD.BorderSizePixel = 0 SD.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+	SD.BackgroundTransparency = 0 
+end)
+Remote.MouseEnter:Connect(function()
+	Remote.BorderSizePixel = 1 
+	Remote.BackgroundColor3 = Color3.new(0, 0.478431, 0.6) 
+	Remote.BackgroundTransparency = 0.4 
+end) 
+Remote.MouseEnter:Connect(function() 
+	Remote.BorderSizePixel = 0 
+	Remote.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Remote.BackgroundTransparency = 0 
+end) 
+Dex.MouseEnter:Connect(function() 
+	Dex.BorderSizePixel = 1 
+	Dex.BackgroundColor3 = Color3.new(0, 0.478431, 0.6) 
+	Dex.BackgroundTransparency = 0.4 
+end) 
+Dex.MouseEnter:Connect(function() 
+	Dex.BorderSizePixel = 0 
+	Dex.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647) 
+	Dex.BackgroundTransparency = 0 
+end) 
+UE.MouseEnter:Connect(function() 
+	UE.BorderSizePixel = 1 
+	UE.BackgroundColor3 = Color3.new(0, 0.478431, 0.6) 
+	UE.BackgroundTransparency = 0.4 
+end) 
+UE.MouseEnter:Connect(function()
+	UE.BorderSizePixel = 0 
+	UE.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	UE.BackgroundTransparency = 1
+end)
+SD.MouseLeave:Connect(function()
+	SD.BorderSizePixel = 0
+	SD.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	SD.BackgroundTransparency = 1
+end)
+Dex.MouseLeave:Connect(function()
+	Dex.BorderSizePixel = 0
+	Dex.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Dex.BackgroundTransparency = 1 
+end)
+Remote.MouseLeave:Connect(function()
+	Remote.BorderSizePixel = 0
+	Remote.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Remote.BackgroundTransparency = 1 
+end)
+UE.MouseLeave:Connect(function() 
+	UE.BorderSizePixel = 0 
+	UE.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	UE.BackgroundTransparency = 1 
+end)
+
+
+cmdx.MouseEnter:Connect(function()
+	cmdx.BorderSizePixel = 1
+	cmdx.BackgroundColor3 = Color3.new(0, 0.478431, 0.6)
+	cmdx.BackgroundTransparency = 0.4
+end)
+
+cmdx.MouseLeave:Connect(function()
+	cmdx.BorderSizePixel = 0
+	cmdx.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	cmdx.BackgroundTransparency = 1 end)
+
+gamehelper.MouseEnter:Connect(function()
+	gamehelper.BorderSizePixel = 1
+	gamehelper.BackgroundColor3 = Color3.new(0, 0.478431, 0.6)
+	gamehelper.BackgroundTransparency = 0.4
+end)
+
+gamehelper.MouseLeave:Connect(function()
+	gamehelper.BorderSizePixel = 0
+	gamehelper.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	gamehelper.BackgroundTransparency = 1 
+end)
+
+nkhub.MouseEnter:Connect(function()
+	nkhub.BorderSizePixel = 1
+	nkhub.BackgroundColor3 = Color3.new(0, 0.478431, 0.6)
+	nkhub.BackgroundTransparency = 0.4
+end)
+
+nkhub.MouseLeave:Connect(function()
+	nkhub.BorderSizePixel = 0
+	nkhub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	nkhub.BackgroundTransparency = 1 end)
+
+infiniteyied.MouseEnter:Connect(function()
+	infiniteyied.BorderSizePixel = 1
+	infiniteyied.BackgroundColor3 = Color3.new(0, 0.478431, 0.6)
+	infiniteyied.BackgroundTransparency = 0.4
+end)
+
+infiniteyied.MouseLeave:Connect(function()
+	infiniteyied.BorderSizePixel = 0
+	infiniteyied.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	infiniteyied.BackgroundTransparency = 1 
+end)
+
+owlhub.MouseEnter:Connect(function()
+	owlhub.BorderSizePixel = 1
+	owlhub.BackgroundColor3 = Color3.new(0, 0.478431, 0.6)
+	owlhub.BackgroundTransparency = 0.4
+end)
+
+owlhub.MouseLeave:Connect(function()
+	owlhub.BorderSizePixel = 0
+	owlhub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	owlhub.BackgroundTransparency = 1 
+end)
+
+
+textbox1.Text = ("Welcome, ".. game.Players.LocalPlayer.DisplayName.. "!")
+
+--[[UI Funcs]]
+shub.MouseButton1Click:Connect(function()
+	if not SH.Visible == true then
+		shub_aAi193KF9k.Text = "Starting.."
+		wait(1.2)
+		shub_aAi193KF9k.Text = "Script Hub" 
+		SH.Visible = true
+	end
+end)
+
+synapse.MouseEnter:Connect(function()
+	Main.DisplayOrder = 1000
+	ScriptHub.DisplayOrder = 999
+end)
+
+SH.MouseEnter:Connect(function()
+	ScriptHub.DisplayOrder = 1000
+	Main.DisplayOrder = 999
+end)
+
+back.MouseEnter:Connect(function()
+	Main.DisplayOrder = 1000
+	ScriptHub.DisplayOrder = 999
+end)
+
+Hub.MouseEnter:Connect(function()
+	ScriptHub.DisplayOrder = 1000
+	Main.DisplayOrder = 999
+end)
+
+--End UI Funcs
+local isthemedvalue = Instance.new("StringValue")
+isthemedvalue.Parent = synapse
+isthemedvalue.Value = "falset"
+isthemedvalue.Name = "01J3NSBKACNASCBSIHDCOÁSNPDSQNPANDASIDNSADIPABJASND9NSAN"
+local nb = isthemedvalue.Value
+
+local MainBackgroundImage = back.Image
+MainBackgroundImage = "http://www.roblox.com/asset/?id=8809048385"
+
+if not MainBackgroundImage == "" then
+	nb = "truel"
+end
+local isthemed = nb == "truel"
+
+exec.MouseEnter:Connect(function()
+	exec.BorderSizePixel = 1
+	exec.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	exec.BackgroundTransparency = 0.6
+end)
+
+exec.MouseLeave:Connect(function()
+	exec.BorderSizePixel = 0
+	exec.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	exec.BackgroundTransparency = 0
+	if isthemed == true then
+		exec.BackgroundTransparency = 1
+	end
+end)
+
+attath.MouseEnter:Connect(function()
+	attath.BorderSizePixel = 1
+	attath.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	attath.BackgroundTransparency = 0.6
+end)
+
+attath.MouseLeave:Connect(function()
+	attath.BorderSizePixel = 0
+	attath.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	attath.BackgroundTransparency = 0
+	if isthemed == true then
+		attath.BackgroundTransparency = 1
+	end
+end)
+
+clear.MouseEnter:Connect(function()
+	clear.BorderSizePixel = 1
+	clear.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	clear.BackgroundTransparency = 0.6
+end)
+
+clear.MouseLeave:Connect(function()
+	clear.BorderSizePixel = 0
+	clear.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	clear.BackgroundTransparency = 0
+	if isthemed == true then
+		clear.BackgroundTransparency = 1
+	end
+end)
+
+efile.MouseEnter:Connect(function()
+	efile.BorderSizePixel = 1
+	efile.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	efile.BackgroundTransparency = 0.6
+end)
+
+efile.MouseLeave:Connect(function()
+	efile.BorderSizePixel = 0
+	efile.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	efile.BackgroundTransparency = 0
+	if isthemed == true then
+		efile.BackgroundTransparency = 1
+	end
+end)
+
+ofile.MouseEnter:Connect(function()
+	ofile.BorderSizePixel = 1
+	ofile.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	ofile.BackgroundTransparency = 0.6
+end)
+
+ofile.MouseLeave:Connect(function()
+	ofile.BorderSizePixel = 0
+	ofile.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	ofile.BackgroundTransparency = 0
+	if isthemed == true then
+		ofile.BackgroundTransparency = 1
+	end
+end)
+
+shub.MouseEnter:Connect(function()
+	shub.BorderSizePixel = 1
+	shub.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	shub.BackgroundTransparency = 0.6
+end)
+
+shub.MouseLeave:Connect(function()
+	shub.BorderSizePixel = 0
+	shub.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	shub.BackgroundTransparency = 0
+	if isthemed == true then
+		shub.BackgroundTransparency = 1
+	end
+end)
+
+options.MouseEnter:Connect(function()
+	options.BorderSizePixel = 1
+	options.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	options.BackgroundTransparency = 0.6
+end)
+
+options.MouseLeave:Connect(function()
+	options.BorderSizePixel = 0
+	options.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	options.BackgroundTransparency = 0
+	if isthemed == true then
+		options.BackgroundTransparency = 1
+	end
+end)
+
+
+--[[Oth Buttons]]
+
+top_2.MouseEnter:Connect(function()
+	top_2.BorderSizePixel = 1
+	top_2.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	top_2.BackgroundTransparency = 0.6
+end)
+
+top_2.MouseLeave:Connect(function()
+	top_2.BorderSizePixel = 0
+	top_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	top_2.BackgroundTransparency = 0
+	if isthemed == true then
+		top.BackgroundTransparency = 1
+	end
+end)
+
+min.MouseEnter:Connect(function()
+	min.BorderSizePixel = 1
+	min.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	min.BackgroundTransparency = 0.6
+end)
+
+min.MouseLeave:Connect(function()
+	min.BorderSizePixel = 0
+	min.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	min.BackgroundTransparency = 0
+	if isthemed == true then
+		min.BackgroundTransparency = 1
+	end
+end)
+
+close.MouseEnter:Connect(function()
+	close.BorderSizePixel = 1
+	close.BackgroundColor3 = Color3.new(0, 0.211765, 0.313725)
+	close.BackgroundTransparency = 0.6
+end)
+
+close.MouseLeave:Connect(function()
+	close.BorderSizePixel = 0
+	close.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+	close.BackgroundTransparency = 0
+	if isthemed == true then
+		close.BackgroundTransparency = 1
+	end
+end)
+
+infiniteyied.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+end)
+
+cmdx.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+
+end)
+
+gamehelper.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/aA910FLsaIASFO1/gamehelper/main/main"))()
+
+end)
+
+nkhub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://nkware.000webhostapp.com/NKWARE.lua"))()
+
+end)
+
+owlhub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+end)
+
+Main.Enabled = false
+
+open.MouseButton1Click:Connect(function()
+	open.Visible = false
+	Main.Enabled = true
+end)
+
+close.MouseButton1Click:Connect(function()
+	Main.Enabled = false
+	open.Visible = true
+end)
