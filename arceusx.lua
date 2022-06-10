@@ -1,3 +1,4 @@
+_G.Version = 'v2.0.1b'
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
